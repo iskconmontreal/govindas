@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Govinda’s Bistro - Menu</title>
+    <style>
+      @font-face {
+        font-family: 'TheSeasons';
+        src: url('/font/theseasons-bd.otf') format('opentype');
+        font-weight: bold;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'TheSeasons';
+        src: url('/font/theseasons-reg.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      :root {
+        --red: #D0531B;
+        --yellow: #FCE37C;
+      }
+
+      body {
+        font-family: sans-serif;
+        background-color: var(--yellow);
+        max-width: 54rem;
+        margin: 40px auto;
+        padding: 0 20px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-weight: normal;
+        font-family: 'TheSeasons', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        color: var(--red);
+      }
+
+      h1 {
+        font-size: 2em;
+        margin: 2em 0 2em;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 1.6em;
+        margin: 0;
+        padding: 0;
+      }
+
+      dl {
+        margin: 0;
+        letter-spacing: .07em;
+      }
+
+      dt {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 600;
+        margin: 1.5em 0 .5em;
+        text-transform: uppercase;
+        color: var(--red);
+      }
+
+      dd {
+        margin: 0 0 0.5em 0;
+      }
+
+      hr {
+        border: none;
+        border-top: 1.5px solid var(--red);
+        margin: 1.5rem 0 2rem;
+      }
+
+      main {
+        margin: 4rem 0;
+        columns: 2;
+        gap: 5vw;
+      }
+
+      section {
+        break-inside: avoid-column;
+        margin: 0 0 2rem;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <img src="./logo.svg" alt="Govinda’s Bistro Logo" style="display: block; margin: 0 auto; width: 16rem;" />
+
+    <h1>Menu</h1>
+
+    <main>
+      <section>
+        <h2>Snacks</h2>
+        <hr>
+        <dl>
+          <dt>Pizza Végétarienne (Laitier)<span>7.5</span></dt>
+          <dd>Courgettes, poivrons, épinards, sauce tomate, mozzarella.</dd>
+
+          <dt>Burger Végétarien (Laitier)<span>8.5</span></dt>
+          <dd>Galette de pommes de terre et pois avec fromage, laitue, tomate, ketchup, moutarde.</dd>
+
+          <dt>Poutine (Laitier)<span>9</span></dt>
+          <dd>Frites, sauce végétarienne, fromage sattvique.</dd>
+
+          <dt>Rouleau Sushi à l’Avocat<span>8</span></dt>
+          <dd>Avocat, carottes, concombre, sésame, nori, riz assaisonné.</dd>
+
+          <dt>Pakora d'Épinards (2 pcs)<span>5</span></dt>
+          <dd>Beignets d’épinards frits en pâte de pois chiches.</dd>
+
+          <dt>Pakora de Paneer (Laitier)<span>7</span></dt>
+          <dd>Fromage indien frit en pâte de pois chiches assaisonnée.</dd>
+
+          <dt>Samosa (2 pcs)<span>5</span></dt>
+          <dd>Pâtisseries fourrées aux pommes de terre et pois épicés.</dd>
+
+          <dt>Pommes de Terre Rôties<span>6.5</span></dt>
+          <dd>Pommes de terre rôties à l’huile d’olive, sel, herbes.</dd>
+
+          <dt>Assortiment de Salés<span>10</span></dt>
+          <dd>Assortiment de pakoras, samosas, et autres délices croustillants.</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Salade</h2>
+        <hr>
+        <dl>
+          <dt>Salade Jagannath<span>8.5</span></dt>
+          <dd>Tomates, jeunes pousses, poivrons, concombre, carottes, avocat, noix, citron, huile d’olive, poivre, sel.</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Desserts</h2>
+        <hr>
+        <dl>
+          <dt>Gâteau aux Carottes<span>5</span></dt>
+          <dd>Moelleux aux carottes râpées, amandes, noix de coco.</dd>
+
+          <dt>Rasgulla (Laitier)<span>4</span></dt>
+          <dd>Boules de fromage spongieuses au sirop à la rose.</dd>
+
+          <dt>Gulab Jamun (Laitier)<span>4</span></dt>
+          <dd>Boules de lait épaissi au sirop à la cardamome.</dd>
+
+          <dt>Halva<span>4</span></dt>
+          <dd>Pudding sucré à la semoule.</dd>
+
+          <dt>Boules Énergétiques (2 pcs)<span>4</span></dt>
+          <dd>Boules de dattes et noix roulées dans la noix de coco.</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Boissons</h2>
+        <hr>
+        <dl>
+          <dt>Lassi à la Mangue (Laitier)<span>5.5</span></dt>
+          <dd>Smoothie au yaourt et mangue, sucré naturellement.</dd>
+
+          <dt>Eau<span>2</span></dt>
+          <dd></dd>
+
+          <dt>Boissons Gazeuses / Jus<span>2</span></dt>
+          <dd>Sprite, 7 Up, Canada Dry, Bubly, Jus : raisin, orange, limonade.</dd>
+
+          <dt>Tisanes<span>2.5</span></dt>
+          <dd>Infusions sans caféine de plantes sacrées et fleurs apaisantes.</dd>
+        </dl>
+      </section>
+
+    </main>
+  </body>
+
+</html>
