@@ -36,14 +36,22 @@
   --luxury: 'TheSeasons', sans-serif;
 }
 
+html {
+  position: relative;
+  min-height: 100vh;
+}
+
 body {
+  position: relative;
   font-family: var(--grotesque);
   background-color: var(--bg);
   max-width: 54rem;
-  margin: 2rem auto 4rem;
+  margin: 2vh auto;
   padding: 0 1rem;
   display: flex;
+  height: 100%;
   flex-direction: column;
+  justify-content: center;
 }
 
 header {
@@ -163,17 +171,16 @@ a {
   }
   body {
     break-inside: avoid;
-    margin: 0 auto
+    margin: auto;
   }
   #lang {
     display: none;
   }
   #logo {
     max-height: 108pt;
-    margin-bottom: 20pt;
+    margin-bottom: 2vh;
   }
   main {
     columns: 2;
-    margin-top: auto;
   }
 }
