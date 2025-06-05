@@ -27,9 +27,9 @@
 }
 
 :root {
-  --red: #641D25;
+  --red: #F85646;
   --green: #207B3E;
-  --yellow: #C18C1B;
+  --yellow: #F6AC33;
   --bg: white;
   --text: black;
   --grotesque: 'BricolageGrotesque', sans-serif;
@@ -55,7 +55,7 @@ h3 {
   font-family: var(--luxury);
   text-transform: uppercase;
   /* letter-spacing: .1em; */
-  color: var(--green);
+  color: var(--red);
 }
 
 h1 {
@@ -71,7 +71,7 @@ h2 {
   position: sticky;
   top: 0;
   background: var(--bg);
-  border-bottom: 1.5px solid var(--text);
+  border-bottom: 1.5px solid var(--red);
 }
 
 dl {
@@ -86,17 +86,11 @@ dt {
   font-size: 1.2rem;
   margin: 1.5rem 0 .5rem;
   text-transform: uppercase;
-  color: var(--green);
+  color: var(--red);
 }
 
 dd {
   margin: 0 0 0.5rem 0;
-}
-
-hr {
-  border: none;
-  border-top: 1.5px solid var(--text);
-  margin: 0rem 0 0rem;
 }
 
 #logo {
@@ -125,7 +119,7 @@ section {
 
 a {
   text-transform: uppercase;
-  color: var(--green);
+  color: var(--yellow);
   text-decoration: none;
   text-underline-offset: 0.2em;
   font-family: var(--luxury);
