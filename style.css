@@ -41,7 +41,7 @@ body {
   background-color: var(--bg);
   max-width: 54rem;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 header {
@@ -60,14 +60,14 @@ h3 {
 
 h1 {
   font-size: 2rem;
-  margin: 1rem 0 2rem;
+  margin: 1rem 0 1rem;
   text-align: center;
 }
 
 h2 {
   font-size: 2rem;
   margin: 0 0 0;
-  padding: 1.5rem 0 1.5rem;
+  padding: 1rem 0;
   position: sticky;
   top: 0;
   background: var(--bg);
@@ -113,7 +113,7 @@ hr {
 }
 
 main {
-  margin: 4rem 0;
+  margin: 2rem 0;
   columns: 2;
   gap: 5vw;
 }
