@@ -40,7 +40,7 @@ body {
   font-family: var(--grotesque);
   background-color: var(--bg);
   max-width: 54rem;
-  margin: 0 auto;
+  margin: 2rem auto 4rem;
   padding: 0 1rem;
 }
 
@@ -157,6 +157,7 @@ a {
   }
   body {
     break-inside: avoid;
+    margin: 0 auto
   }
   #lang {
     display: none;
