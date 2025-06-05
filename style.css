@@ -42,6 +42,8 @@ body {
   max-width: 54rem;
   margin: 2rem auto 4rem;
   padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -147,7 +149,7 @@ a {
 
 
 @page {
-  size: A4;
+  size: A4 portrait;
   margin-bottom: 0.5cm;
 }
 
