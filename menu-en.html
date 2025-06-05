@@ -7,152 +7,7 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <title>Govinda’s Bistro - Menu</title>
-    <style>
-      @font-face {
-        font-family: 'TheSeasons';
-        src: url('./font/theseasons-bd.otf') format('opentype');
-        font-weight: bold;
-        font-style: normal;
-      }
-
-      @font-face {
-        font-family: 'TheSeasons';
-        src: url('./font/theseasons-reg.otf') format('opentype');
-        font-weight: normal;
-        font-style: normal;
-      }
-
-      @font-face {
-        font-family: 'BricolageGrotesque';
-        src: url('./font/BricolageGrotesque-Medium.ttf') format('truetype');
-        font-weight: 500;
-        font-style: normal;
-      }
-
-      @font-face {
-        font-family: 'BricolageGrotesque';
-        src: url('./font/BricolageGrotesque-Regular.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-      }
-
-      :root {
-        --red: #641D25;
-        --green: #207B3E;
-        --yellow: #C18C1B;
-        --bg: white;
-        --text: black;
-        --grotesque: 'BricolageGrotesque', sans-serif;
-        --luxury: 'TheSeasons', sans-serif;
-      }
-
-      body {
-        font-family: var(--grotesque);
-        background-color: var(--bg);
-        max-width: 54rem;
-        margin: 0 auto;
-        padding: 0 2rem;
-      }
-
-      header {
-        position: relative;
-      }
-
-      h1,
-      h2,
-      h3 {
-        font-weight: normal;
-        font-family: var(--luxury);
-        text-transform: uppercase;
-        /* letter-spacing: .1em; */
-        color: var(--green);
-      }
-
-      h1 {
-        font-size: 2rem;
-        margin: 1rem 0 2rem;
-        text-align: center;
-      }
-
-      h2 {
-        font-size: 2rem;
-        margin: 0 0 1.5rem;
-        padding: 0;
-      }
-
-      dl {
-        margin: 0;
-        letter-spacing: .1em;
-      }
-
-      dt {
-        display: flex;
-        justify-content: space-between;
-        font-weight: 500;
-        font-size: 1.2rem;
-        margin: 1.5rem 0 .5rem;
-        text-transform: uppercase;
-        color: var(--green);
-      }
-
-      dd {
-        margin: 0 0 0.5rem 0;
-      }
-
-      hr {
-        border: none;
-        border-top: 1.5px solid var(--text);
-        margin: 0rem 0 0rem;
-      }
-
-      #logo {
-        display: block;
-        margin: 0 auto;
-        max-width: 320px;
-        max-height: 320px;
-      }
-
-      #lang {
-        position: absolute;
-        top: 1.5rem;
-        right: 0;
-      }
-
-      main {
-        margin: 4rem 0;
-        columns: 2;
-        gap: 5vw;
-      }
-
-      section {
-        break-inside: avoid-column;
-        margin: 0 0 2rem;
-      }
-
-      a {
-        text-transform: uppercase;
-        color: var(--green);
-        text-decoration: none;
-        text-underline-offset: 0.2em;
-        font-family: var(--luxury);
-        font-weight: bold;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-
-      @media (max-width: 768px) {
-        main {
-          columns: 1;
-        }
-
-        #logo {
-          max-width: 270px;
-          max-height: 270px;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="./style.css">
   </head>
 
   <body>
@@ -184,7 +39,7 @@
     <main>
       <section>
         <h2>Snacks</h2>
-        <hr>
+
         <dl>
           <dt>Vegetarian Pizza (Dairy)<span>7.5</span></dt>
           <dd>Zucchini, bell peppers, spinach, tomato sauce, mozzarella.</dd>
@@ -217,7 +72,7 @@
 
       <section>
         <h2>Salad</h2>
-        <hr>
+
         <dl>
           <dt>Jagannath Salad<span>8.5</span></dt>
           <dd>Tomatoes, baby greens, bell peppers, cucumber, carrots, avocado, nuts, lemon, olive oil, pepper, salt.</dd>
@@ -226,7 +81,7 @@
 
       <section>
         <h2>Desserts</h2>
-        <hr>
+
         <dl>
           <dt>Carrot Cake<span>5</span></dt>
           <dd>Moist cake with grated carrots, almonds, coconut.</dd>
@@ -247,7 +102,7 @@
 
       <section>
         <h2>Drinks</h2>
-        <hr>
+
         <dl>
           <dt>Mango Lassi (Dairy)<span>5.5</span></dt>
           <dd>Yogurt and mango smoothie, naturally sweetened.</dd>
