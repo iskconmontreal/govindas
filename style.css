@@ -104,6 +104,8 @@ dd {
   position: absolute;
   top: 1.5rem;
   right: 0;
+  font-family: var(--luxury);
+  font-weight: bold;
 }
 
 main {
@@ -119,12 +121,9 @@ section {
 }
 
 a {
-  text-transform: uppercase;
   color: var(--yellow);
   text-decoration: none;
   text-underline-offset: 0.2em;
-  font-family: var(--luxury);
-  font-weight: bold;
 
   &:hover {
     text-decoration: underline;
