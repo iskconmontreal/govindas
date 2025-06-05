@@ -131,6 +131,10 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    margin: 0rem auto;
+  }
+
   main {
     columns: 1;
   }
