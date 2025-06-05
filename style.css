@@ -1,9 +1,9 @@
-@font-face {
+/* @font-face {
   font-family: 'TheSeasons';
   src: url('./font/theseasons-bd.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
-}
+} */
 
 @font-face {
   font-family: 'TheSeasons';
@@ -19,12 +19,12 @@
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'BricolageGrotesque';
   src: url('./font/BricolageGrotesque-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 :root {
   --red: #F85646;
