@@ -65,7 +65,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.728rem;
   margin: 0 0 0;
   padding: 1rem 0;
   position: sticky;
@@ -84,7 +84,7 @@ dt {
   justify-content: space-between;
   font-weight: 500;
   font-size: 1.2rem;
-  margin: 1.5rem 0 .5rem;
+  margin: 1rem 0 .5rem;
   text-transform: uppercase;
   color: var(--red);
 }
@@ -109,12 +109,12 @@ dd {
 main {
   margin: 2rem 0;
   columns: 2;
-  gap: 5vw;
+  gap: 4vw;
 }
 
 section {
   break-inside: avoid-column;
-  margin: 0 0 2rem;
+  margin: 0 0 1.5rem;
 }
 
 a {
@@ -130,7 +130,7 @@ a {
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   main {
     columns: 1;
   }
@@ -138,5 +138,33 @@ a {
   #logo {
     max-width: 270px;
     max-height: 270px;
+  }
+}
+
+
+@page {
+  size: A4;
+}
+
+@media print {
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  :root {
+    font-size: 9pt;
+  }
+  body {
+    break-inside: avoid;
+  }
+  #lang {
+    display: none;
+  }
+  #logo {
+    max-height: 108pt;
+    margin-bottom: 20pt;
+  }
+  main {
+    columns: 2;
   }
 }
