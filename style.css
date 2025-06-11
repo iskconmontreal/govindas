@@ -28,7 +28,7 @@
 
 :root {
   --red: #F85646;
-  --green: #299666;
+  --green: #90d4b4;
   --yellow: #F6AC33;
   --bg: white;
   --text: black;
@@ -91,16 +91,29 @@ dl {
 
 dt {
   display: flex;
-  justify-content: space-between;
   font-weight: 500;
   font-size: 1.2rem;
   margin: 1rem 0 .5rem;
   text-transform: uppercase;
   color: var(--red);
+  svg {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: .5rem;
+  }
+  span {
+    margin-left: auto;
+  }
 }
 
 dd {
   margin: 0 0 0.5rem 0;
+}
+
+p {
+  svg {
+    vertical-align: text-top;
+  }
 }
 
 #logo {
@@ -139,6 +152,11 @@ a {
     text-decoration: underline;
   }
 }
+
+[hidden] {
+  display: none;
+}
+
 
 @media screen and (max-width: 768px) {
   body {
