@@ -28,7 +28,7 @@
 
 :root {
   --red: #F85646;
-  --green: #90d4b4;
+  --green: #51b586;
   --yellow: #F6AC33;
   --bg: white;
   --text: black;
@@ -68,13 +68,31 @@ h3 {
   color: var(--red);
 }
 
-h1 {
+h2 {
   font-size: 2rem;
-  margin: 1rem 0 1rem;
+  margin: 0rem 0 1.5rem;
   text-align: center;
 }
 
-h2 {
+h4 {
+  color: var(--red);
+  margin: 0 0 .5rem;
+}
+
+.menu-content {
+  margin: 1.5rem 0;
+  columns: 2;
+  gap: 4.2vw;
+
+  >div {
+    break-inside: avoid-column;
+    margin: 0 0 0rem;
+    text-wrap: balance;
+
+  }
+}
+
+h3 {
   font-size: 1.728rem;
   margin: 0 0 1rem;
   padding: 1rem 0;
@@ -96,11 +114,13 @@ dt {
   margin: 1rem 0 .5rem;
   text-transform: uppercase;
   color: var(--red);
+
   svg {
     display: inline-block;
     vertical-align: baseline;
     margin-left: .5rem;
   }
+
   span {
     margin-left: auto;
   }
@@ -123,24 +143,12 @@ p {
   max-height: 320px;
 }
 
-#lang {
+nav {
   position: absolute;
   top: 1.5rem;
   right: 0;
-  font-family: var(--luxury);
+  font-family: var(--grotesque);
   font-weight: bold;
-}
-
-main {
-  margin: 1.5rem 0;
-  columns: 2;
-  gap: 4.2vw;
-}
-
-section {
-  break-inside: avoid-column;
-  margin: 0 0 0rem;
-  text-wrap: balance;
 }
 
 a {
@@ -151,25 +159,56 @@ a {
   &:hover {
     text-decoration: underline;
   }
+
+  &.active {
+    color: white;
+    background: var(--yellow);
+    border-radius: 10rem;
+    padding: .25rem .5rem;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 [hidden] {
   display: none;
 }
 
+section {
+  margin: 2rem 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 4.2vw;;
+  justify-content: space-between;
+  text-align: left;
+  margin: 3rem 0;
+
+  h1, h2, h3 {
+    text-align: left;
+  }
+}
 
 @media screen and (max-width: 768px) {
   body {
     margin: 0rem auto;
   }
 
-  main {
+  .menu-content {
     columns: 1;
   }
 
   #logo {
     max-width: 270px;
     max-height: 270px;
+  }
+
+  footer {
+    flex-direction: column;
   }
 }
 
@@ -184,21 +223,26 @@ a {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
+
   :root {
     font-size: 9pt;
   }
+
   body {
     break-inside: avoid;
     margin: auto;
   }
-  #lang {
+
+  nav, #lang, #about, #reviews, footer {
     display: none;
   }
+
   #logo {
     max-height: 108pt;
     margin-bottom: 2vh;
   }
-  main {
+
+  .menu-content {
     columns: 2;
   }
 }
