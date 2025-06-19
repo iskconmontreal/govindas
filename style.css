@@ -243,7 +243,7 @@ footer {
 
   body {
     break-inside: avoid;
-    margin: auto;
+    margin: 0 auto;
   }
 
   nav, #lang, #about, #reviews, footer {
@@ -253,6 +253,10 @@ footer {
   #logo {
     max-height: 108pt;
     margin-bottom: 2vh;
+  }
+
+  section {
+    margin: 0;
   }
 
   .menu-content {
