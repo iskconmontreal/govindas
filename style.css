@@ -149,10 +149,12 @@ nav {
   right: 0;
   font-family: var(--grotesque);
   font-weight: bold;
+  color: var(--yellow);
 }
 
 a {
-  color: var(--yellow);
+  /* color: var(--yellow); */
+  color: inherit;
   text-decoration: none;
   text-underline-offset: 0.2em;
 
