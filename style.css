@@ -136,6 +136,26 @@ p {
   }
 }
 
+blockquote {
+  margin: 4rem 0;
+  text-wrap: pretty;
+  text-align: center;
+  font-size: 1.728rem;
+  color: lightgray;
+  transition: opacity 1s ease-in-out;
+  em {
+    font-family: var(--luxury);
+    letter-spacing: 0.025em;
+  }
+  div {
+    margin-top: 1rem;
+    font-size: 1.08rem;
+  }
+  &.hidden {
+    opacity: 0;
+  }
+}
+
 #logo {
   display: block;
   margin: 0 auto;
