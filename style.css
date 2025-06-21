@@ -284,4 +284,8 @@ footer {
   .menu-content {
     columns: 2;
   }
+
+  blockquote {
+    display: none;
+  }
 }
