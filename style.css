@@ -88,7 +88,6 @@ h4 {
     break-inside: avoid-column;
     margin: 0 0 0rem;
     text-wrap: balance;
-
   }
 }
 
@@ -140,7 +139,7 @@ blockquote {
   margin: 2rem 0 6rem;
   text-wrap: pretty;
   text-align: center;
-  font-size: 1.728rem;
+  font-size: 1.5rem;
   color: lightgray;
   transition: opacity 1s ease-in-out;
   em {
@@ -208,7 +207,7 @@ footer {
   gap: 4.2vw;;
   justify-content: space-between;
   text-align: left;
-  margin: 3rem 0;
+  margin: 3rem auto;
 
   h1, h2, h3 {
     text-align: left;
@@ -235,6 +234,12 @@ footer {
 
   .menu-content {
     columns: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #legend {
+    order: 1
   }
 
   #logo {
