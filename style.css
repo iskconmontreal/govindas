@@ -113,6 +113,7 @@ dt {
   margin: 1rem 0 .5rem;
   text-transform: uppercase;
   color: var(--red);
+  line-height: 1;
 
   svg {
     display: inline-block;
@@ -122,6 +123,7 @@ dt {
 
   span {
     margin-left: auto;
+    padding-left: 1rem;
   }
 }
 
@@ -239,7 +241,8 @@ footer {
   }
 
   #legend {
-    order: 1
+    order: 1;
+    width: 100%;
   }
 
   #logo {
