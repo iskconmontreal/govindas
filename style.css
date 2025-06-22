@@ -137,7 +137,7 @@ p {
 }
 
 blockquote {
-  margin: 4rem 0;
+  margin: 2rem 0 6rem;
   text-wrap: pretty;
   text-align: center;
   font-size: 1.728rem;

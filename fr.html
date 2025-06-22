@@ -310,9 +310,11 @@
             fill="var(--red)" />
         </svg>
         <div>
+          <a href="https://maps.app.goo.gl/324V7PYqME6YGJrg6">
           1626, boul. Pie-IX,<br />
           Montréal, Québec<br />
           H1V 2C5
+          </a>
         </div>
       </div>
 
@@ -344,42 +346,42 @@
     </div>
   </footer>
 
-    <blockquote id="quote-block">
-      <em>« Le prasadam signifie ‘la misericorde’. Nous ne pouvons pas voir Dieu, nous ne pouvons pas Le toucher — mais nous pouvons goûter Sa miséricorde. »</em>
-      <div>– Śrīla Prabhupāda, Los Angeles, 5 janvier 1974</div>
-    </blockquote>
+  <blockquote id="quote-block">
+    <em>« Le prasadam signifie ‘la misericorde’. Nous ne pouvons pas voir Dieu, nous ne pouvons pas Le toucher — mais nous pouvons goûter Sa miséricorde. »</em>
+    <div>– Śrīla Prabhupāda, Los Angeles, 5 janvier 1974</div>
+  </blockquote>
 
-    <script>
-      const quotes = [
-        {
-          text: "« Le prasādam signifie ‘la miséricorde’. Nous ne pouvons pas voir Dieu, nous ne pouvons pas Le toucher — mais nous pouvons goûter Sa miséricorde. »",
-          source: "– Śrīla Prabhupāda, Los Angeles, 5 janvier 1974"
-        },
-        {
-          text: "« Rien qu’en mangeant le prasādam de Krishna, on peut être libéré. Il est si puissant. »",
-          source: "– Śrīla Prabhupāda, Londres, 12 juillet 1973"
-        },
-        {
-          text: "« Si l’on mange simplement du prasādam, on peut devenir pleinement conscient de Krishna. »",
-          source: "– Śrīla Prabhupāda, Montréal, 15 juin 1968"
-        },
-        {
-          text: "« Offrir la nourriture à Krishna avec amour, puis l’honorer, est une méthode spirituelle simple et sublime. »",
-          source: "– Le Nectar de la Dévotion, chapitre 9"
-        }
-      ];
+  <script>
+    const quotes = [
+      {
+        text: "« Le prasādam signifie ‘la miséricorde’. Nous ne pouvons pas voir Dieu, nous ne pouvons pas Le toucher — mais nous pouvons goûter Sa miséricorde. »",
+        source: "– Śrīla Prabhupāda, Los Angeles, 5 janvier 1974"
+      },
+      {
+        text: "« Rien qu’en mangeant le prasādam de Krishna, on peut être libéré. Il est si puissant. »",
+        source: "– Śrīla Prabhupāda, Londres, 12 juillet 1973"
+      },
+      {
+        text: "« Si l’on mange simplement du prasādam, on peut devenir pleinement conscient de Krishna. »",
+        source: "– Śrīla Prabhupāda, Montréal, 15 juin 1968"
+      },
+      {
+        text: "« Offrir la nourriture à Krishna avec amour, puis l’honorer, est une méthode spirituelle simple et sublime. »",
+        source: "– Le Nectar de la Dévotion, chapitre 9"
+      }
+    ];
 
-      const block = document.getElementById('quote-block');
-      let i = 0;
+    const block = document.getElementById('quote-block');
+    let i = 0;
 
-      setInterval(() => {
-        block.classList.add('hidden');
-        setTimeout(() => {
-          i = (i + 1) % quotes.length;
-          block.innerHTML = `<em>${quotes[i].text}</em><div>${quotes[i].source}</div>`;
-          block.classList.remove('hidden');
-        }, 1000); // match CSS transition time
-      }, 5400); // show each quote for 5 seconds
-    </script>
+    setInterval(() => {
+      block.classList.add('hidden');
+      setTimeout(() => {
+        i = (i + 1) % quotes.length;
+        block.innerHTML = `<em>${quotes[i].text}</em><div>${quotes[i].source}</div>`;
+        block.classList.remove('hidden');
+      }, 1000); // match CSS transition time
+    }, 5400); // show each quote for 5 seconds
+  </script>
 
 </html>

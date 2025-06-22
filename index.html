@@ -310,7 +310,7 @@
             fill="var(--red)" />
         </svg>
         <div>
-          1626 Pie-IX Blvd,<br> Montreal, Quebec<br> H1V 2C5
+          <a href="https://maps.app.goo.gl/324V7PYqME6YGJrg6">1626 Pie-IX Blvd,<br> Montreal, Quebec<br> H1V 2C5</a>
         </div>
       </div>
       <div>
@@ -344,42 +344,42 @@
   </footer>
 
 
-    <blockquote id="quote-block">
-      <em>“Prasadam means ‘mercy.’ We cannot see God, we cannot touch God—but we can taste His mercy.”</em>
-      <div>– Śrīla Prabhupāda, Los Angeles, Jan 5, 1974</div>
-    </blockquote>
+  <blockquote id="quote-block">
+    <em>“Prasadam means ‘mercy.’ We cannot see God, we cannot touch God—but we can taste His mercy.”</em>
+    <div>– Śrīla Prabhupāda, Los Angeles, Jan 5, 1974</div>
+  </blockquote>
 
-    <script>
-      const quotes = [
-        {
-          text: "“Prasadam means ‘mercy.’ We cannot see God, we cannot touch God—but we can taste His mercy.”",
-          source: "– Śrīla Prabhupāda, Los Angeles, Jan 5, 1974"
-        },
-        {
-          text: "“Just by eating Krishna prasadam, one can be liberated. It is so powerful.”",
-          source: "– Śrīla Prabhupāda, London, July 12, 1973"
-        },
-        {
-          text: "“If one simply eats prasadam, he can become fully Krishna conscious.”",
-          source: "– Śrīla Prabhupāda, Montreal, June 15, 1968"
-        },
-        {
-          text: "“Offering food to Krishna with love and then honoring it is a most simple and sublime method of spiritual advancement.”",
-          source: "– The Nectar of Devotion, Chapter 9"
-        }
-      ];
+  <script>
+    const quotes = [
+      {
+        text: "“Prasadam means ‘mercy.’ We cannot see God, we cannot touch God—but we can taste His mercy.”",
+        source: "– Śrīla Prabhupāda, Los Angeles, Jan 5, 1974"
+      },
+      {
+        text: "“Just by eating Krishna prasadam, one can be liberated. It is so powerful.”",
+        source: "– Śrīla Prabhupāda, London, July 12, 1973"
+      },
+      {
+        text: "“If one simply eats prasadam, he can become fully Krishna conscious.”",
+        source: "– Śrīla Prabhupāda, Montreal, June 15, 1968"
+      },
+      {
+        text: "“Offering food to Krishna with love and then honoring it is a most simple and sublime method of spiritual advancement.”",
+        source: "– The Nectar of Devotion, Chapter 9"
+      }
+    ];
 
-      const block = document.getElementById('quote-block');
-      let i = 0;
+    const block = document.getElementById('quote-block');
+    let i = 0;
 
-      setInterval(() => {
-        block.classList.add('hidden');
-        setTimeout(() => {
-          i = (i + 1) % quotes.length;
-          block.innerHTML = `<em>${quotes[i].text}</em><div>${quotes[i].source}</div>`;
-          block.classList.remove('hidden');
-        }, 1000); // match CSS transition time
-      }, 5400); // show each quote for 5 seconds
-    </script>
+    setInterval(() => {
+      block.classList.add('hidden');
+      setTimeout(() => {
+        i = (i + 1) % quotes.length;
+        block.innerHTML = `<em>${quotes[i].text}</em><div>${quotes[i].source}</div>`;
+        block.classList.remove('hidden');
+      }, 1000); // match CSS transition time
+    }, 5400); // show each quote for 5 seconds
+  </script>
 
 </html>
