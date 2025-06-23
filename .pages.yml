@@ -1,26 +1,26 @@
 content:
-  # - name: config
-  #   label: Jekyll config
-  #   path: _config.yml
-  #   type: file
-  #   fields:
-  #     - name: title
-  #       label: Website title
-  #       type: string
-  #     - name: description
-  #       label: Website description
-  #       type: string
-  #       description: Will be provused for any page with no description.
-  #     - name: url
-  #       label: Website URL
-  #       type: string
-  #       pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
-  #     - name: cover
-  #       label: Preview image
-  #       type: image
-  #       description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
+  - name: info
+    label: Info
+    path: _config.yml
+    type: file
+    fields:
+      - name: title
+        label: Website title
+        type: string
+      - name: description
+        label: Website description
+        type: string
+        description: Will be provused for any page with no description.
+      - name: url
+        label: Website URL
+        type: string
+        pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
+      - name: cover
+        label: Preview image
+        type: image
+        description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
   - name: menu
-    label: Menu Items
+    label: Menu
     type: file
     path: menu.json
     fields:
@@ -33,7 +33,7 @@ content:
             - Desserts
             - Drinks
       - name: name
-        label: Item Name
+        label: Name
         type: string
       - name: description
         label: Description
