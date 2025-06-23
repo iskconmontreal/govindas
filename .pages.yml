@@ -1,0 +1,35 @@
+collections:
+  - name: menu
+    label: Menu Items
+    folder: menu
+    create: true
+    fields:
+      - name: name
+        label: Item Name
+        type: text
+      - name: price
+        label: Price
+        type: number
+      - name: description
+        label: Description
+        type: textarea
+      - name: vegan
+        label: Vegan
+        type: boolean
+      - name: dairy
+        label: Contains Dairy
+        type: boolean
+      - name: glutenfree
+        label: Gluten-Free
+        type: boolean
+      - name: peanuts
+        label: Contains Peanuts
+        type: boolean
+      - name: category
+        label: Category
+        type: select
+        options:
+          - Appetizer
+          - Main Course
+          - Dessert
+          - Beverage
