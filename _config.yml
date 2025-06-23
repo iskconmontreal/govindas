@@ -1,28 +1,4 @@
-# Basic site settings
-title: Restaurant Menu
-description: Bilingual restaurant menu
-url: https://yourusername.github.io/your-repo-name
+title: Govinda’s Montreal
+description: Transcendental vegetarian cuisine
+url: https://govindasmontreal.ca
 cover: /assets/images/menu-preview.jpg
-
-# Jekyll settings
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-
-# Plugins (GitHub Pages compatible)
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-
-# Build settings
-sass:
-  style: compressed
-
-# Exclude files from processing
-exclude:
-  - README.md
-  - LICENSE
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - package.json
