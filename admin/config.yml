@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: iskconmontreal/govindas
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+collections:
+  - name: "items"
+    label: "Menu Items"
+    folder: "_menu"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Name", name: "title", widget: "string", required: true }
+      - { label: "Description", name: "description", widget: "markdown", required: true }
+      - { label: "Price", name: "price", widget: "number", value_type: "float", min: 0, required: true }
+      - { label: "Category", name: "category", widget: "select", options: ["Snacks", "Desserts", "Drinks"], required: true }
+      - { label: "Image", name: "image", widget: "image", required: false, hint: "Upload an image for the dish" }
