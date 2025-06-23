@@ -1,19 +1,5 @@
 title: Govinda’s Montreal
 description: Bilingual restaurant menu
 url: https://yourusername.github.io/your-repo-name
-cover: /assets/images/menu-preview.jpg
+
 markdown: kramdown
-highlighter: rouge
-permalink: pretty
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-sass:
-  style: compressed
-exclude:
-  - README.md
-  - LICENSE
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - package.json
