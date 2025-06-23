@@ -1,18 +1,18 @@
-collections:
+content:
   - name: menu
     label: Menu Items
-    folder: menu
-    create: true
+    type: file
+    path: 'menu.json'
     fields:
       - name: name
         label: Item Name
-        type: text
+        type: string
       - name: price
         label: Price
         type: number
       - name: description
         label: Description
-        type: textarea
+        type: text
       - name: vegan
         label: Vegan
         type: boolean
@@ -29,7 +29,6 @@ collections:
         label: Category
         type: select
         options:
-          - Appetizer
-          - Main Course
-          - Dessert
-          - Beverage
+          - Snacks
+          - Desserts
+          - Drinks
