@@ -122,9 +122,9 @@
                 {% endif %}
             {% endif %}
             {% if item.tags %}
-              {% for tag in item.tags %}
-                <svg title="{% tag %}" width="18" height="18">
-                  <use href="#{% tag %}"></use>
+              {% for option in item.tags %}
+                <svg title="{% option %}" width="18" height="18">
+                  <use href="#{% option %}"></use>
                 </svg>
               {% endfor %}
             {% endif %}
