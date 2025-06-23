@@ -4,7 +4,7 @@
       "name": "Veggie Pizza | Pizza Végé",
       "description": "Zucchini, peppers, olives, spinach, tomato sauce, mozzarella cheese. |\nCourgettes, poivrons, olives, épinards, sauce tomate, fromage mozzarella.",
       "tags": [
-        "Dairy"
+        "dairy"
       ],
       "price": 7.5
     },
@@ -15,11 +15,64 @@
     },
     {
       "name": "Poutine",
-      "description": "| Frites garnies de fromage et sauce gravy.",
+      "description": "Golden fries topped with cheese and gravy. | Frites garnies de fromage et sauce gravy.",
       "tags": [
         "Dairy"
       ],
       "price": 8
+    },
+    {
+      "name": "Spinach Pakora (2 PCS) | Pakora d’Épinards (2 PCS)",
+      "description": "Lightly spiced spinach fritters, crisped to perfection in chickpea flour batter. Served with coriander chutney. |\nBeignets d’épinards légèrement épicés, frits à la perfection dans une pâte de farine de pois chiches. Servis avec chutney de coriandre.",
+      "tags": [
+        "vegan",
+        "no-gluten"
+      ],
+      "price": 3.5
+    },
+    {
+      "name": "Paneer Pakoras | Pakoras de Paneer",
+      "description": "Fresh Indian cottage cheese dipped in seasoned chickpea flour and deep-fried until golden. |\nFromage cottage indien frais, enrobé de pâte de farine de pois chiches assaisonnée et frit jusqu’à doré.",
+      "tags": [
+        "dairy"
+      ],
+      "price": 2
+    },
+    {
+      "name": "Samosa (2 PCS)",
+      "description": "Traditional pastry filled with a mildly spiced potato and pea mixture. Served with sauce. |\nPâtisserie traditionnelle farcie d’un mélange légèrement épicé de patates et pois. Servie avec sauce.",
+      "tags": [
+        "vegan"
+      ],
+      "price": 5
+    },
+    {
+      "name": "Oven Roasted Potatoes | Patates Rôties au Four",
+      "description": "Golden baby potatoes oven-roasted with olive oil, salt, and fresh herbs. | \nPatates grelots rôties au four avec huile d’olive, sel et herbes fraîches.",
+      "tags": [
+        "vegan",
+        "no-gluten"
+      ],
+      "price": 6.5
+    },
+    {
+      "name": "Assorted Savories | Assortiment de Délices Salés",
+      "description": "A sampler of our most beloved crunchy delights, including pakoras and samosas. |\nÉchantillon de nos délices croustillants préférés, incluant pakoras et samosas.",
+      "price": 10
+    },
+    {
+      "name": "Combo",
+      "description": "Pizza / burger + fries / potatoes + 1 drink. |\nPizza / burger + frites / patates + 1 boisson.",
+      "price": 12.5
+    },
+    {
+      "name": "Jagannath Salad | Salade Jaganath",
+      "description": "Tomatoes, mixed greens, bell peppers, cucumber, grated carrot, avocado, walnuts, lemon juice, olive oil, black pepper, sea salt. |\nTomates, verdures mélangées, poivrons, concombre, carottes râpées, avocat, noix, jus de citron, huile d’olive, poivre noir, sel de mer.",
+      "tags": [
+        "vegan",
+        "no-gluten"
+      ],
+      "price": 8.5
     }
   ],
   "desserts": [
