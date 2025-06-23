@@ -30,21 +30,21 @@ content:
       - name: price
         label: Price
         type: number
-      # - name: description
-      #   label: Description
-      #   type: text
-      # - name: vegan
-      #   label: Vegan
-      #   type: boolean
-      # - name: dairy
-      #   label: Contains Dairy
-      #   type: boolean
-      # - name: glutenfree
-      #   label: Gluten-Free
-      #   type: boolean
-      # - name: peanuts
-      #   label: Contains Peanuts
-      #   type: boolean
+      - name: description
+        label: Description
+        type: text
+      - name: vegan
+        label: Vegan
+        type: boolean
+      - name: dairy
+        label: Contains Dairy
+        type: boolean
+      - name: glutenfree
+        label: Gluten-Free
+        type: boolean
+      - name: peanuts
+        label: Contains Peanuts
+        type: boolean
       # - name: category
       #   label: Category
       #   type: select
