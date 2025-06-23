@@ -1,0 +1,9 @@
+{
+  "category": "Snacks",
+  "name": "Veggie Pizza",
+  "description": "Zucchini, peppers, olives, spinach, tomato sauce, mozzarella cheese.",
+  "tags": [
+    "Dairy"
+  ],
+  "price": 7.5
+}
