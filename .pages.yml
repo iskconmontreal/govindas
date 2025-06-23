@@ -45,10 +45,11 @@ content:
       - name: peanuts
         label: Contains Peanuts
         type: boolean
-      # - name: category
-      #   label: Category
-      #   type: select
-      #   options:
-      #     - Snacks
-      #     - Desserts
-      #     - Drinks
+      - name: category
+        label: Category
+        type: select
+        options:
+          values:
+            - Snacks
+            - Desserts
+            - Drinks
