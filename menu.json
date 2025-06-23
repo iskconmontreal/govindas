@@ -1,17 +1,25 @@
 {
   "snacks": [
     {
-      "name": "Veggie Pizza",
-      "description": "Zucchini, peppers, olives, spinach, tomato sauce, mozzarella cheese.",
+      "name": "Veggie Pizza | Pizza Végé",
+      "description": "Zucchini, peppers, olives, spinach, tomato sauce, mozzarella cheese. |\nCourgettes, poivrons, olives, épinards, sauce tomate, fromage mozzarella.",
       "tags": [
         "Dairy"
       ],
       "price": 7.5
     },
     {
-      "name": "Veggie Burger",
-      "description": "Grilled spiced potato and pea patty served on a bun with cheese, lettuce, tomato, ketchup, and mustard.\nVegan upon request.",
+      "name": "Veggie Burger | Burger Végé",
+      "description": "Grilled spiced potato and pea patty served on a bun with cheese, lettuce, tomato, ketchup, and mustard.\nVegan upon request. |\nGalette de patates épicée et pois, servie sur pain avec fromage, laitue, tomate, ketchup et moutarde.\nVégane sur demande.",
       "price": 7.5
+    },
+    {
+      "name": "Poutine",
+      "description": "| Frites garnies de fromage et sauce gravy.",
+      "tags": [
+        "Dairy"
+      ],
+      "price": 8
     }
   ],
   "desserts": [
