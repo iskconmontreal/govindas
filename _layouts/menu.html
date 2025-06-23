@@ -123,8 +123,8 @@
             {% endif %}
             {% if item.tags %}
               {% for current_tag in item.tags %}
-                <svg title="{% current_tag %}" width="18" height="18">
-                  <use href="#{% current_tag %}"></use>
+                <svg title="{{ current_tag }}" width="18" height="18">
+                  <use href="#{{ current_tag }}"></use>
                 </svg>
               {% endfor %}
             {% endif %}

@@ -22,7 +22,7 @@ components:
         options:
           creatable: true
           multiple: true
-          values: [Vegan, Dairy, Gluten-Free, Peanuts]
+          values: [vegan, dairy, no-gluten, peanuts]
       - name: price
         label: Price
         type: number
