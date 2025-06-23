@@ -47,7 +47,6 @@ content:
       - name: item
         label: Item
         type: block
-        list: true
         blocks:
           - name: text
             label: Add Text Block
