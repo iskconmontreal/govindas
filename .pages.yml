@@ -3,6 +3,10 @@ settings:
 components:
   item:
     type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: "{title} ({index})"
     fields:
       - name: name
         label: Name
@@ -49,12 +53,9 @@ content:
       - name: snacks
         component: item
         label: Snacks
-        list: true
       - name: desserts
         component: item
         label: Desserts
-        list: true
       - name: drinks
         component: item
         label: Drinks
-        list: true
