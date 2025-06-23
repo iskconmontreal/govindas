@@ -6,7 +6,7 @@ components:
     list:
       collapsible:
         collapsed: true
-        summary: "{title} ({index})"
+        summary: "{name}"
     fields:
       - name: name
         label: Name
