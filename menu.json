@@ -1,0 +1,37 @@
+{
+  "snacks": [
+    {
+      "name": "Veggie Pizza",
+      "description": "Zucchini, peppers, olives, spinach, tomato sauce, mozzarella cheese.",
+      "tags": [
+        "Dairy"
+      ],
+      "price": 7.5
+    },
+    {
+      "name": "Veggie Burger",
+      "description": "Grilled spiced potato and pea patty served on a bun with cheese, lettuce, tomato, ketchup, and mustard.\nVegan upon request.",
+      "price": 7.5
+    }
+  ],
+  "desserts": [
+    {
+      "name": "Carrot Cake",
+      "description": "Moist and lightly spiced cake with grated carrots, almonds, and shredded coconut.",
+      "tags": [
+        "Vegan"
+      ],
+      "price": 1
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Mango Lassi",
+      "description": "Refreshing yogurt-based mango smoothie, naturally sweetened.",
+      "tags": [
+        "Dairy"
+      ],
+      "price": 5
+    }
+  ]
+}
