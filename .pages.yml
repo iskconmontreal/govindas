@@ -1,3 +1,21 @@
+components:
+  hero: # 'hero' is the component name/key
+    label: Hero Section
+    type: object
+    fields:
+      - name: headline
+        label: Headline
+        type: text
+        required: true
+      - name: cover
+        label: Cover Image
+        type: image
+  email: # 'email' is the component name/key
+    label: Email Address
+    type: string
+    pattern:
+      regex: '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+      message: 'This must be a valid email address (e.g. hello@example.com).'
 content:
   - name: info
     label: Info
@@ -19,6 +37,23 @@ content:
         label: Preview image
         type: image
         description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
+  # - name: sections
+  #   label: Page Sections
+  #   type: block
+  #   list: true
+  #   blockKey: type # Optional: customize the key used to store the block name, defaults to `_block`
+  #   blocks:
+  #     # Each item defines a possible block structure the user can select.
+  #     # These typically use 'component' or define 'fields' directly.
+  #     - name: hero
+  #       label: Add Hero Section
+  #       component: hero # Assumes a 'hero' component is defined and that its type is `object`
+  #     - name: text
+  #       label: Add Text Block
+  #       fields:
+  #         - name: content
+  #           label: Text Content
+  #           type: rich-text
   - name: menu
     label: Menu
     type: file
@@ -35,6 +70,7 @@ content:
       - name: name
         label: Name
         type: string
+        list: true
       - name: description
         label: Description
         type: text
