@@ -1,34 +1,54 @@
 content:
-  - name: menu
-    label: Menu Items
+  - name: config
+    label: Jekyll config
+    path: _config.yml
     type: file
-    path: 'menu.json'
     fields:
-      - name: name
-        label: Item Name
+      - name: title
+        label: Website title
         type: string
-      - name: price
-        label: Price
-        type: number
       - name: description
-        label: Description
-        type: text
-      - name: vegan
-        label: Vegan
-        type: boolean
-      - name: dairy
-        label: Contains Dairy
-        type: boolean
-      - name: glutenfree
-        label: Gluten-Free
-        type: boolean
-      - name: peanuts
-        label: Contains Peanuts
-        type: boolean
-      - name: category
-        label: Category
-        type: select
-        options:
-          - Snacks
-          - Desserts
-          - Drinks
+        label: Website description
+        type: string
+        description: Will be provused for any page with no description.
+      - name: url
+        label: Website URL
+        type: string
+        pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
+      - name: cover
+        label: Preview image
+        type: image
+        description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
+#   - name: menu
+#     label: Menu Items
+#     type: file
+#     path: 'menu.json'
+#     fields:
+#       - name: name
+#         label: Item Name
+#         type: string
+#       - name: price
+#         label: Price
+#         type: number
+#       - name: description
+#         label: Description
+#         type: text
+#       - name: vegan
+#         label: Vegan
+#         type: boolean
+#       - name: dairy
+#         label: Contains Dairy
+#         type: boolean
+#       - name: glutenfree
+#         label: Gluten-Free
+#         type: boolean
+#       - name: peanuts
+#         label: Contains Peanuts
+#         type: boolean
+#       - name: category
+#         label: Category
+#         type: select
+#         options:
+#           - Snacks
+#           - Desserts
+#           - Drinks
