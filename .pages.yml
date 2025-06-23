@@ -17,7 +17,7 @@ components:
     type: string
     pattern:
       regex: '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
-      message: 'This must be a valid email address (e.g. hello@example.com).'
+      message: "This must be a valid email address (e.g. hello@example.com)."
 content:
   - name: info
     label: Info
@@ -46,41 +46,30 @@ content:
     fields:
       - name: item
         label: Item
-        type: block
-        blocks:
-          - name: text
-            label: Add Text Block
-            fields:
-              - name: content
-                label: Text Content
-                type: rich-text
-          - name: text2
-            label: Add Text Block2
-            fields:
-              - name: content
-                label: Text Content
-                type: rich-text
-      - name: category
-        label: Category
-        type: select
-        options:
-          values:
-            - Snacks
-            - Desserts
-            - Drinks
-      - name: name
-        label: Name
-        type: string
-      - name: description
-        label: Description
-        type: text
-      - name: tags
-        label: Tags
-        type: select
-        options:
-          creatable: true
-          multiple: true
-          values: [Vegan, Dairy, Gluten-Free, Peanuts]
-      - name: price
-        label: Price
-        type: number
+        type: object
+        list: true
+        fields:
+          - name: category
+            label: Category
+            type: select
+            options:
+              values:
+                - Snacks
+                - Desserts
+                - Drinks
+          - name: name
+            label: Name
+            type: string
+          - name: description
+            label: Description
+            type: text
+          - name: tags
+            label: Tags
+            type: select
+            options:
+              creatable: true
+              multiple: true
+              values: [Vegan, Dairy, Gluten-Free, Peanuts]
+          - name: price
+            label: Price
+            type: number
