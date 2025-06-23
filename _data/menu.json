@@ -37,9 +37,24 @@
       "name": "Mango Lassi",
       "description": "Refreshing yogurt-based mango smoothie, naturally sweetened.",
       "tags": [
-        "Dairy"
+        "dairy"
       ],
       "price": 5
+    },
+    {
+      "name": "Water | Eau",
+      "description": "“I am the taste of water” – Gītā 7.8 |\nJe suis le goût de l’eau – Gītā 7.8",
+      "price": 2
+    },
+    {
+      "name": "Soft Drinks, Juice | Boissons Gazeuses, Jus",
+      "description": "Sprite, 7 Up, Canada Dry, Bubly. Juice: Grape, Orange, Lemonade. |\nSprite, 7 Up, Canada Dry, Bubly. Jus : raisin, orange, limonade.",
+      "price": 2.5
+    },
+    {
+      "name": "Herbal Teas | Tisanes",
+      "description": "Caffeine-free infusions made from herbs and flowers.\n“I am the healing herb” – Gītā 9.16 |\nSélection apaisante d’infusions sans caféine à base d’herbes et de fleurs, conçues pour calmer l’esprit et nourrir l’âme.",
+      "price": 2.5
     }
   ]
 }
