@@ -1,5 +1,7 @@
 settings:
   hide: true
+  content:
+    merge: true
 components:
   item:
     type: object
