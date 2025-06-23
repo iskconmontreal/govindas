@@ -17,7 +17,8 @@
       "name": "Poutine",
       "description": "Golden fries topped with cheese and gravy. | Frites garnies de fromage et sauce gravy.",
       "tags": [
-        "Dairy"
+        "dairy",
+        "no-gluten"
       ],
       "price": 8
     },
