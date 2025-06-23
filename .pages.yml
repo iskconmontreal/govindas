@@ -16,6 +16,9 @@ components:
       - name: description
         label: Description
         type: text
+      - name: price
+        label: Price
+        type: number
       - name: tags
         label: Tags
         type: select
@@ -23,9 +26,6 @@ components:
           creatable: true
           multiple: true
           values: [vegan, dairy, no-gluten, peanuts]
-      - name: price
-        label: Price
-        type: number
 content:
   - name: info
     label: Info
