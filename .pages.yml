@@ -1,23 +1,26 @@
 settings:
   hide: true
 components:
-  hero: # 'hero' is the component name/key
-    label: Hero Section
+  item:
+    label: Menu Item
     type: object
     fields:
-      - name: headline
-        label: Headline
+      - name: name
+        label: Name
+        type: string
+      - name: description
+        label: Description
         type: text
-        required: true
-      - name: cover
-        label: Cover Image
-        type: image
-  email: # 'email' is the component name/key
-    label: Email Address
-    type: string
-    pattern:
-      regex: '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
-      message: "This must be a valid email address (e.g. hello@example.com)."
+      - name: tags
+        label: Tags
+        type: select
+        options:
+          creatable: true
+          multiple: true
+          values: [Vegan, Dairy, Gluten-Free, Peanuts]
+      - name: price
+        label: Price
+        type: number
 content:
   - name: info
     label: Info
@@ -44,32 +47,18 @@ content:
     type: file
     path: menu.json
     fields:
-      - name: item
-        label: Item
+      - name: snacks
+        component: item
+        label: Snacks
         type: object
         list: true
-        fields:
-          - name: category
-            label: Category
-            type: select
-            options:
-              values:
-                - Snacks
-                - Desserts
-                - Drinks
-          - name: name
-            label: Name
-            type: string
-          - name: description
-            label: Description
-            type: text
-          - name: tags
-            label: Tags
-            type: select
-            options:
-              creatable: true
-              multiple: true
-              values: [Vegan, Dairy, Gluten-Free, Peanuts]
-          - name: price
-            label: Price
-            type: number
+      - name: desserts
+        component: item
+        label: Desserts
+        type: object
+        list: true
+      - name: drinks
+        component: item
+        label: Drinks
+        type: object
+        list: true
