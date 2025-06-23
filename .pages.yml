@@ -24,27 +24,6 @@ content:
     type: file
     path: menu.json
     fields:
-      - name: name
-        label: Item Name
-        type: string
-      - name: price
-        label: Price
-        type: number
-      - name: description
-        label: Description
-        type: text
-      - name: vegan
-        label: Vegan
-        type: boolean
-      - name: dairy
-        label: Contains Dairy
-        type: boolean
-      - name: glutenfree
-        label: Gluten-Free
-        type: boolean
-      - name: peanuts
-        label: Contains Peanuts
-        type: boolean
       - name: category
         label: Category
         type: select
@@ -53,3 +32,19 @@ content:
             - Snacks
             - Desserts
             - Drinks
+      - name: name
+        label: Item Name
+        type: string
+      - name: description
+        label: Description
+        type: text
+      - name: tags
+        label: Tags
+        type: select
+        options:
+          creatable: true
+          multiple: true
+          values: [Vegan, Dairy, Gluten-Free, Peanuts]
+      - name: price
+        label: Price
+        type: number
