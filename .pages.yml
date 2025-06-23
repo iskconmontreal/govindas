@@ -48,7 +48,7 @@ content:
   - name: menu
     label: Menu
     type: file
-    path: menu.json
+    path: _data/menu.json
     fields:
       - name: snacks
         component: item
