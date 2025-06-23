@@ -2,7 +2,6 @@ settings:
   hide: true
 components:
   item:
-    label: Menu Item
     type: object
     fields:
       - name: name
@@ -50,15 +49,12 @@ content:
       - name: snacks
         component: item
         label: Snacks
-        type: object
         list: true
       - name: desserts
         component: item
         label: Desserts
-        type: object
         list: true
       - name: drinks
         component: item
         label: Drinks
-        type: object
         list: true
