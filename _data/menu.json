@@ -78,12 +78,29 @@
   ],
   "desserts": [
     {
-      "name": "Carrot Cake",
-      "description": "Moist and lightly spiced cake with grated carrots, almonds, and shredded coconut.",
+      "name": "Carrot Cake | Gâteau aux Carottes",
+      "description": "Moist and lightly spiced cake with grated carrots, almonds, and shredded coconut. |\nGâteau moelleux légèrement épicé avec carottes râpées, amandes et noix de coco râpée.",
       "tags": [
-        "Vegan"
+        "vegan"
       ],
-      "price": 1
+      "price": 5
+    },
+    {
+      "name": "Rasgulla (2 PCS)",
+      "description": "Soft and spongy cheese balls soaked in rose-scented syrup. |\nBoules de fromage moelleuses et spongieuses trempées dans un sirop parfumé à la rose.",
+      "tags": [
+        "dairy",
+        "no-gluten"
+      ],
+      "price": 4
+    },
+    {
+      "name": "Gulab Jamun (2 PCS)",
+      "description": "Golden milk-solid dumplings steeped in warm cardamom-infused syrup. | \nBoulettes dorées de lait solide trempées dans un sirop chaud infusé à la cardamome.",
+      "tags": [
+        "dairy"
+      ],
+      "price": 5
     }
   ],
   "drinks": [
