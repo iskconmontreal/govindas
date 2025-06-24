@@ -1,5 +1,5 @@
 settings:
-  hide: true
+  hide: false
   content:
     merge: true # preserve config
 components:
@@ -27,6 +27,33 @@ components:
           multiple: true
           values: [vegan, dairy, no-gluten, peanuts]
 content:
+  - name: info
+    label: Info
+    path: _config.yml
+    type: file
+    fields:
+      - name: title
+        label: Website title
+        type: string
+      - name: about
+        label: About
+        type: text
+      - name: hours
+        label: Hours
+        type: object
+        fields:
+          - name: weekdays_lunch
+            label: Weekdays Lunch
+            type: string
+          - name: weekdays_dinner
+            label: Weekdays Dinner
+            type: string
+          - name: weekends
+            label: Weekends
+            type: string
+      - name: address
+        label: Address
+        type: text
   - name: menu
     label: Menu
     type: file
