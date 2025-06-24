@@ -27,17 +27,6 @@ components:
           multiple: true
           values: [vegan, dairy, no-gluten, peanuts]
 content:
-  - name: info
-    label: Info
-    path: _config.yml
-    type: file
-    fields:
-      - name: title
-        label: Website title
-        type: string
-      - name: about
-        label: About
-        type: text
   - name: menu
     label: Menu
     type: file
