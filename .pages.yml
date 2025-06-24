@@ -45,13 +45,13 @@ content:
         label: Hours
         type: object
         fields:
-          - name: weekdays_lunch
+          - name: weekday_lunch
             label: Weekdays Lunch
             type: string
-          - name: weekdays_dinner
+          - name: weekday_dinner
             label: Weekdays Dinner
             type: string
-          - name: weekends
+          - name: weekend
             label: Weekends
             type: string
       - name: address
