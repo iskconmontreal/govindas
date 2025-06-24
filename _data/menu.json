@@ -9,13 +9,13 @@
       ]
     },
     {
-      "name": "Veggie Burger | Burger Végé",
+      "name": "Veggie / vegan Burger | Burger Végé",
       "description": "Grilled spiced potato and pea patty served on a bun with cheese, lettuce, tomato, ketchup, and mustard.\nVegan upon request. |\nGalette de patates épicée et pois, servie sur pain avec fromage, laitue, tomate, ketchup et moutarde.\nVégane sur demande.",
       "price": 7.5
     },
     {
       "name": "Poutine",
-      "description": "Golden fries topped with cheese and gravy. | Frites garnies de fromage et sauce gravy.",
+      "description": "Golden air-fried potatoes topped with cheese and gravy. | Frites garnies de fromage et sauce gravy.",
       "price": 8,
       "tags": [
         "dairy",
@@ -36,7 +36,8 @@
       "description": "Fresh Indian cottage cheese dipped in seasoned chickpea flour and deep-fried until golden. |\nFromage cottage indien frais, enrobé de pâte de farine de pois chiches assaisonnée et frit jusqu’à doré.",
       "price": 2,
       "tags": [
-        "dairy"
+        "dairy",
+        "no-gluten"
       ]
     },
     {
@@ -86,18 +87,18 @@
       ]
     },
     {
-      "name": "Rasgulla (2 PCS)",
+      "name": "Rasgulla",
       "description": "Soft and spongy cheese balls soaked in rose-scented syrup. |\nBoules de fromage moelleuses et spongieuses trempées dans un sirop parfumé à la rose.",
-      "price": 4,
+      "price": 2,
       "tags": [
         "dairy",
         "no-gluten"
       ]
     },
     {
-      "name": "Gulab Jamun (2 PCS)",
+      "name": "Gulab Jamun",
       "description": "Golden milk-solid dumplings steeped in warm cardamom-infused syrup. | \nBoulettes dorées de lait solide trempées dans un sirop chaud infusé à la cardamome.",
-      "price": 5,
+      "price": 2.5,
       "tags": [
         "dairy"
       ]
