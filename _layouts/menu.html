@@ -176,12 +176,6 @@
     </h2>
   </section> -->
 
-  {% if content != "" %}
-  <footer class="footer">
-    {{ content }}
-  </footer>
-  {% endif %}
-
   <footer>
     <div style="display: flex; flex-direction: row; align-items: start; gap:1rem;">
       <svg width="32" height="32" viewBox="0 0 511 512" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0;">
@@ -241,5 +235,7 @@
     </div>
   </footer>
 
-
+  {% if content != "" %}
+    {{ content }}
+  {% endif %}
 </html>
