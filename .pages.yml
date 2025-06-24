@@ -35,6 +35,9 @@ content:
       - name: title
         label: Website title
         type: string
+      - name: description
+        label: Description
+        type: text
       - name: about
         label: About
         type: text
