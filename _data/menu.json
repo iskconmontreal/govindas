@@ -125,7 +125,7 @@
   "drinks": [
     {
       "name": "Mango Lassi",
-      "description": "Refreshing yogurt-based mango smoothie, naturally sweetened.",
+      "description": "Refreshing yogurt-based mango smoothie, naturally sweetened. | Smoothie rafraîchissant à la mangue à base de yaourt, naturellement sucré.",
       "price": 5,
       "tags": [
         "dairy"
