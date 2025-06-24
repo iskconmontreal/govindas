@@ -4,12 +4,12 @@ Takes bilingual text in format "English | French" and returns appropriate langua
 {% endcomment %}
 
 {% if include.lang == 'en' %}
-    {{ include.text | split: '|' | first | newline_to_br }}
+    {{ include.text | split: '|' | first | strip | newline_to_br }}
 {% else %}
     {% assign text_parts = include.text | split: '|' %}
     {% if text_parts.size > 1 %}
-        {{ text_parts[1] | newline_to_br }}
+        {{ text_parts[1] | strip | newline_to_br }}
     {% else %}
-        {{ include.text | newline_to_br }}
+        {{ include.text | strip | newline_to_br }}
     {% endif %}
 {% endif %}
