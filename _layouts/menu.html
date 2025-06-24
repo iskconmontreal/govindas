@@ -191,11 +191,11 @@
       </svg>
       <div>
         <h4>{% if page.lang == 'fr' %}Déjeuner en Semaine{% else %}Weekdays Lunch{% endif %}</h4>
-        <p style="margin-top:0">{% page.hours.weekday_lunch %}</p>
+        <p style="margin-top:0">{{ page.hours.weekday_lunch }}</p>
         <h4>{% if page.lang == 'fr' %}Souper en Semaine{% else %}Weekdays Dinner{% endif %}</h4>
-        <p style="margin-top:0">{% page.hours.weekday_dinner %}</p>
+        <p style="margin-top:0">{{ page.hours.weekday_dinner }}</p>
         <h4>{% if page.lang == 'fr' %}Fins de Semaine (Sam - Dim){% else %}Weekends (Sat - Sun){% endif %}</h4>
-        <p style="margin-top:0">{% page.hours.weekend %}</p>
+        <p style="margin-top:0">{{ page.hours.weekend }}</p>
       </div>
     </div>
     <div style="display: flex; flex-direction: column; gap: 1.5rem">
