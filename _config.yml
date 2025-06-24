@@ -9,8 +9,13 @@ hours:
   weekdays_lunch: 12:00 - 2:00PM
   weekdays_dinner: 5:00 - 9:00PM
   weekends: 12:00 - 9:00PM
-address: 1626 Pie-IX Blvd,Montreal, Quebec H1V 2C5 | 1626, boul. Pie-IX
-  Montréal, Québec H1V 2C5
+address: |-
+  1626 Pie-IX Blvd
+  Montreal, Quebec
+  H1V 2C5 |
+  1626, boul. Pie-IX
+  Montréal, Québec
+  H1V 2C5
 phone: +1 (514) 506-5154
 url: https://yourusername.github.io/your-repo-name
 markdown: kramdown
