@@ -1,5 +1,46 @@
 ---
 layout: menu
-title: "Restaurant Menu"
+title: Govinda’s Bistro - Cuisine végétarienne transcendante à Montréal
 lang: fr
+about: "Transcendantal, sans karma, sāttvique, cuisiné frais avec amour et dévotion."
+address: "1626, boul. Pie-IX\n Montréal, Québec\n H1V 2C5"
 ---
+
+
+<blockquote id="quote-block">
+  <em>« Le prasadam signifie ‘la misericorde’. Nous ne pouvons pas voir Dieu, nous ne pouvons pas Le toucher — mais nous pouvons goûter Sa miséricorde. »</em>
+  <div>– Śrīla Prabhupāda, Los Angeles, 5 janvier 1974</div>
+</blockquote>
+
+<script>
+  const quotes = [
+    {
+      text: "« Le prasādam signifie ‘la miséricorde’. Nous ne pouvons pas voir Dieu, nous ne pouvons pas Le toucher — mais nous pouvons goûter Sa miséricorde. »",
+      source: "– Śrīla Prabhupāda, Los Angeles, 5 janvier 1974"
+    },
+    {
+      text: "« Rien qu’en mangeant le prasādam de Krishna, on peut être libéré. Il est si puissant. »",
+      source: "– Śrīla Prabhupāda, Londres, 12 juillet 1973"
+    },
+    {
+      text: "« Si l’on mange simplement du prasādam, on peut devenir pleinement conscient de Krishna. »",
+      source: "– Śrīla Prabhupāda, Montréal, 15 juin 1968"
+    },
+    {
+      text: "« Offrir la nourriture à Krishna avec amour, puis l’honorer, est une méthode spirituelle simple et sublime. »",
+      source: "– Le Nectar de la Dévotion, chapitre 9"
+    }
+  ];
+
+  const block = document.getElementById('quote-block');
+  let i = 0;
+
+  setInterval(() => {
+    block.classList.add('hidden');
+    setTimeout(() => {
+      i = (i + 1) % quotes.length;
+      block.innerHTML = `<em>${quotes[i].text}</em><div>${quotes[i].source}</div>`;
+      block.classList.remove('hidden');
+    }, 1000); // match CSS transition time
+  }, 5400); // show each quote for 5 seconds
+</script>

@@ -91,6 +91,14 @@ h4 {
   }
 }
 
+#legend {
+  display: flex;
+  gap: 1.5rem 1.5rem;
+  flex-wrap: wrap;
+  margin: 3rem auto 0;
+  justify-content: center;
+}
+
 h3 {
   font-size: 1.728rem;
   margin: 0 0 1rem;
@@ -144,14 +152,17 @@ blockquote {
   font-size: 1.5rem;
   color: lightgray;
   transition: opacity 1s ease-in-out;
+
   em {
     font-family: var(--luxury);
     letter-spacing: 0.025em;
   }
+
   div {
     margin-top: 1rem;
     font-size: 1.08rem;
   }
+
   &.hidden {
     opacity: 0;
   }
@@ -188,6 +199,7 @@ a {
     background: var(--yellow);
     border-radius: 10rem;
     padding: .25rem .5rem;
+
     &:hover {
       text-decoration: none;
     }
@@ -206,12 +218,15 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: start;
-  gap: 4.2vw;;
+  gap: 4.2vw;
+  ;
   justify-content: space-between;
   text-align: left;
   margin: 3rem auto;
 
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     text-align: left;
   }
 }
@@ -222,11 +237,25 @@ footer {
 }
 
 @keyframes shake {
-  0% { transform: translate(0, 0) rotate(0); }
-  25% { transform: translate(2px, 0) rotate(2.7deg); }
-  50% { transform: translate(-2px, 0) rotate(0); }
-  75% { transform: translate(2px, 0) rotate(2.7deg); }
-  100% { transform: translate(0, 0) rotate(0deg); }
+  0% {
+    transform: translate(0, 0) rotate(0);
+  }
+
+  25% {
+    transform: translate(2px, 0) rotate(2.7deg);
+  }
+
+  50% {
+    transform: translate(-2px, 0) rotate(0);
+  }
+
+  75% {
+    transform: translate(2px, 0) rotate(2.7deg);
+  }
+
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -276,7 +305,11 @@ footer {
     margin: 0 auto;
   }
 
-  nav, #lang, #about, #reviews, footer {
+  nav,
+  #lang,
+  #about,
+  #reviews,
+  footer {
     display: none;
   }
 
