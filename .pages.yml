@@ -56,7 +56,10 @@ content:
             type: string
       - name: address
         label: Address
-        type: text
+        type: string
+      - name: phone
+        label: Phone
+        type: string
   - name: menu
     label: Menu
     type: file
