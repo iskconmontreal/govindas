@@ -184,11 +184,9 @@
           fill="var(--red)" />
       </svg>
       <div>
-        <h4>{% if page.lang == 'fr' %}Déjeuner en Semaine{% else %}Weekdays Lunch{% endif %}</h4>
-        <p style="margin-top:0">{{ site.hours.weekday_lunch }}</p>
-        <h4>{% if page.lang == 'fr' %}Souper en Semaine{% else %}Weekdays Dinner{% endif %}</h4>
-        <p style="margin-top:0">{{ site.hours.weekday_dinner }}</p>
-        <h4>{% if page.lang == 'fr' %}Fins de Semaine (Sam - Dim){% else %}Weekends (Sat - Sun){% endif %}</h4>
+        <h4>{% if page.lang == 'fr' %}Mercredi–Vendredi{% else %}Wednesday–Friday{% endif %}</h4>
+        <p style="margin-top:0">{{ site.hours.weekday }}</p>
+        <h4>{% if page.lang == 'fr' %}Samedi–Dimanche{% else %}Saturday–Sunday{% endif %}</h4>
         <p style="margin-top:0">{{ site.hours.weekend }}</p>
       </div>
     </div>
