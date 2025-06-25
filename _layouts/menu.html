@@ -185,9 +185,9 @@
       </svg>
       <div>
         <h4>{% if page.lang == 'fr' %}Mercredi–Vendredi{% else %}Wednesday–Friday{% endif %}</h4>
-        <p style="margin-top:0">{{ site.hours.weekday }}</p>
+        <p style="margin-top:0">{% include t.html text=site.hours.weekday lang=page.lang %}</p>
         <h4>{% if page.lang == 'fr' %}Samedi–Dimanche{% else %}Saturday–Sunday{% endif %}</h4>
-        <p style="margin-top:0">{{ site.hours.weekend }}</p>
+        <p style="margin-top:0">{% include t.html text=site.hours.weekend lang=page.lang %}</p>
       </div>
     </div>
     <div style="display: flex; flex-direction: column; gap: 1.5rem">
