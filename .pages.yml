@@ -47,10 +47,10 @@ content:
         fields:
           - name: weekday
             label: Weekdays
-            type: string
+            type: text
           - name: weekend
             label: Weekends
-            type: string
+            type: text
       - name: address
         label: Address
         type: text
