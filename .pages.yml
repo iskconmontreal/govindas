@@ -62,12 +62,12 @@ content:
     type: file
     path: _data/menu.json
     fields:
-      - name: snacks
+      - name: savory
         component: item
-        label: Snacks
-      - name: desserts
+        label: Savory
+      - name: sweet
         component: item
-        label: Desserts
+        label: Sweet
       - name: drinks
         component: item
         label: Drinks

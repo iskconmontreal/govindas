@@ -85,15 +85,15 @@
         <h3>
           {% if page.lang == 'en' %}
               {% case category[0] %}
-                  {% when 'snacks' %}Snacks
-                  {% when 'desserts' %}Desserts
+                  {% when 'savory' %}Savory
+                  {% when 'sweet' %}Sweet
                   {% when 'drinks' %}Drinks
                   {% else %}{{ category[0] | capitalize }}
               {% endcase %}
           {% else %}
               {% case category[0] %}
-                  {% when 'snacks' %}Collations
-                  {% when 'desserts' %}Desserts
+                  {% when 'savory' %}Salé
+                  {% when 'sweet' %}Sucré
                   {% when 'drinks' %}Boissons
                   {% else %}{{ category[0] | capitalize }}
               {% endcase %}

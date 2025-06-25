@@ -1,5 +1,5 @@
 {
-  "snacks": [
+  "savory": [
     {
       "name": "Veggie Pizza | Pizza Végé",
       "description": "Zucchini, peppers, olives, spinach, tomato sauce, mozzarella cheese. |\nCourgettes, poivrons, olives, épinards, sauce tomate, fromage mozzarella.",
@@ -77,7 +77,7 @@
       ]
     }
   ],
-  "desserts": [
+  "sweet": [
     {
       "name": "Carrot Cake | Gâteau aux Carottes",
       "description": "Moist and lightly spiced cake with grated carrots, almonds, and shredded coconut. |\nGâteau moelleux légèrement épicé avec carottes râpées, amandes et noix de coco râpée.",
