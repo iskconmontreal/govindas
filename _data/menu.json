@@ -9,13 +9,13 @@
       ]
     },
     {
-      "name": "Veggie / vegan Burger | Burger Végé",
+      "name": "Veggie / Vegan Burger | Burger Végé/Végétalien",
       "description": "Grilled spiced potato and pea patty served on a bun with cheese, lettuce, tomato, ketchup, and mustard.\nVegan upon request. |\nGalette de patates épicée et pois, servie sur pain avec fromage, laitue, tomate, ketchup et moutarde.\nVégane sur demande.",
       "price": 7.5
     },
     {
       "name": "Poutine",
-      "description": "Golden air-fried potatoes topped with cheese and gravy. | Frites garnies de fromage et sauce gravy.",
+      "description": "Golden air-fried potatoes topped with cheese and gravy. | Patates dorées frites à l'air, garnies de fromage et de sauce gravy.",
       "price": 8,
       "tags": [
         "dairy",
@@ -34,7 +34,7 @@
     {
       "name": "Paneer Pakoras | Pakoras de Paneer",
       "description": "Fresh Indian cottage cheese dipped in seasoned chickpea flour and deep-fried until golden. |\nFromage cottage indien frais, enrobé de pâte de farine de pois chiches assaisonnée et frit jusqu’à doré.",
-      "price": 2,
+      "price": 5,
       "tags": [
         "dairy",
         "no-gluten"
@@ -65,7 +65,7 @@
     {
       "name": "Combo",
       "description": "Pizza / burger + fries / potatoes + 1 drink. |\nPizza / burger + frites / patates + 1 boisson.",
-      "price": 12.5
+      "price": 11.5
     },
     {
       "name": "Jagannath Salad | Salade Jaganath",
