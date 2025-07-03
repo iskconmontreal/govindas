@@ -49,23 +49,27 @@
       ]
     },
     {
-      "name": "Oven Roasted Potatoes | Patates Rôties au Four",
-      "description": "Golden baby potatoes oven-roasted with olive oil, salt, and fresh herbs. | \nPatates grelots rôties au four avec huile d’olive, sel et herbes fraîches.",
-      "price": 6.5,
+      "name": "Assorted Savories | Assortiment de Délices Salés",
+      "description": "A sampler of our most beloved crunchy delights, including pakoras and samosas. |\nÉchantillon de nos délices croustillants préférés, incluant pakoras et samosas.",
+      "price": 10,
       "tags": [
         "vegan",
         "no-gluten"
       ]
     },
     {
-      "name": "Assorted Savories | Assortiment de Délices Salés",
-      "description": "A sampler of our most beloved crunchy delights, including pakoras and samosas. |\nÉchantillon de nos délices croustillants préférés, incluant pakoras et samosas.",
-      "price": 10
-    },
-    {
       "name": "Combo",
       "description": "Pizza / burger + fries / potatoes + 1 drink. |\nPizza / burger + frites / patates + 1 boisson.",
       "price": 12.5
+    },
+    {
+      "name": "Jagannath Salad | Salade Jaganath",
+      "description": "Tomatoes, mixed greens, bell peppers, cucumber, grated carrot, avocado, walnuts, lemon juice, olive oil, black pepper, sea salt. |\nTomates, verdures mélangées, poivrons, concombre, carottes râpées, avocat, noix, jus de citron, huile d’olive, poivre noir, sel de mer.",
+      "price": 8.5,
+      "tags": [
+        "vegan",
+        "no-gluten"
+      ]
     },
     {
       "name": "Jagannath Salad | Salade Jaganath",
@@ -96,19 +100,21 @@
       ]
     },
     {
-      "name": "Gulab Jamun",
-      "description": "Golden milk-solid dumplings steeped in warm cardamom-infused syrup. | \nBoulettes dorées de lait solide trempées dans un sirop chaud infusé à la cardamome.",
-      "price": 2.5,
-      "tags": [
-        "dairy"
-      ]
-    },
-    {
       "name": "Halva",
       "description": "A sacred dessert of semolina and sweetness. | \nDessert sacré de semoule et de douceur.",
       "price": 4,
       "tags": [
         "vegan"
+      ]
+    },
+    {
+      "name": "Bliss Balls (2 PCS)",
+      "description": "Date and nut-based energy balls rolled in coconut – sweet, nourishing, and guilt-free. |\nBoules énergétiques à base de dattes et noix, enrobées de noix de coco – sucrées, nourrissantes et sans culpabilité.",
+      "price": 4,
+      "tags": [
+        "vegan",
+        "no-gluten",
+        "peanuts"
       ]
     },
     {
