@@ -164,7 +164,8 @@
     },
     {
       "name": "Thali",
-      "description": "4 items: Rice, 2 puris\n1 choice of side from: Dahl, Chole (Chick Peas), or Rajma (Red Kidney Beans) \n1 choice of main dish from: Mixed veg stew (Vegan), Coconut Cream Stew (Vegan), Kofta Balls (Vegan), Palak Paneer (Dairy), Matar Paneer (Dairy), Chili Paneer (Dairy)\n | 4 articles : riz, 2 puris\n1 accompagnement au choix : dahl, chole (pois chiches) ou rajma (haricots rouges)\n1 plats principaux au choix : ragoût de légumes variés (végétalien), ragoût à la crème de coco (végétalien), boulettes de kofta (végétalien), palak paneer (laitier), matar paneer (laitier), chili paneer (laitier)"
+      "description": "4 items: Rice, 2 puris\n1 choice of side from: Dahl, Chole (Chick Peas), or Rajma (Red Kidney Beans) \n1 choice of main dish from: Mixed veg stew (Vegan), Coconut Cream Stew (Vegan), Kofta Balls (Vegan), Palak Paneer (Dairy), Matar Paneer (Dairy), Chili Paneer (Dairy)\n | 4 articles : riz, 2 puris\n1 accompagnement au choix : dahl, chole (pois chiches) ou rajma (haricots rouges)\n1 plats principaux au choix : ragoût de légumes variés (végétalien), ragoût à la crème de coco (végétalien), boulettes de kofta (végétalien), palak paneer (laitier), matar paneer (laitier), chili paneer (laitier)",
+      "price": 9
     }
   ]
 }
