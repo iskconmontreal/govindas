@@ -64,7 +64,7 @@ content:
     fields:
       - name: platters
         component: item
-        label: Platters
+        label: Thalis / Platters
       - name: savory
         component: item
         label: Savory
