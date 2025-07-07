@@ -62,6 +62,9 @@ content:
     type: file
     path: _data/menu.json
     fields:
+      - name: platters
+        component: item
+        label: Platters
       - name: savory
         component: item
         label: Savory
