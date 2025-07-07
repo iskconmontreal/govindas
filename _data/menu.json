@@ -155,5 +155,12 @@
       "description": "Caffeine-free infusions made from herbs and flowers.\n“I am the healing herb” – Gītā 9.16 |\nSélection apaisante d’infusions sans caféine à base d’herbes et de fleurs, conçues pour calmer l’esprit et nourrir l’âme.",
       "price": 2.5
     }
+  ],
+  "platters": [
+    {
+      "name": "Thali Deluxe",
+      "description": "8 items: Rice, 2 puris, 2 spinach pakoras, coriander chutney\n1 choice of side from: Dahl, Chole (Chick Peas), or Rajma (Red Kidney Beans) \n2 choices of main dish from: Mixed veg stew (Vegan), Coconut Cream Stew (Vegan), Kofta Balls (Vegan), Palak Paneer (Dairy), Matar Paneer (Dairy), Chili Paneer (Dairy)\n1 choice of dessert from: Carrot cake or Bliss Balls | 8 articles : riz, 2 puris, 2 pakoras aux épinards, chutney à la coriandre\n1 accompagnement au choix : dahl, chole (pois chiches) ou rajma (haricots rouges)\n2 plats principaux au choix : ragoût de légumes variés (végétalien), ragoût à la crème de coco (végétalien), boulettes de kofta (végétalien), palak paneer (laitier), matar paneer (laitier), chili paneer (laitier)\n1 dessert au choix : gâteau aux carottes ou boules de bliss",
+      "price": 16
+    }
   ]
 }
