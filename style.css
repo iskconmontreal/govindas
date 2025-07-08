@@ -81,7 +81,7 @@ h4 {
 }
 
 p {
-  margin: 0.5rem 0;
+  margin: 0;
 }
 
 .menu-special dl {
@@ -316,7 +316,7 @@ footer {
   }
 
   :root {
-    font-size: 8pt;
+    font-size: 9pt;
   }
 
   body {
