@@ -79,6 +79,14 @@ h4 {
   margin: 0 0 .5rem;
 }
 
+.menu-special {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    grid-auto-flow: column;
+    gap: 0 4.2vw;
+}
+
 .menu-content {
   margin: 1.5rem 0;
   columns: 2;

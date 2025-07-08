@@ -79,55 +79,15 @@
 
   <section id="menu">
     <h2>Menu</h2>
+    <div class="menu-special">
+    {% for category in menu limit: 1 %}
+      {% include section.html name=category[0] items=category[1] lang=page.lang %}
+    {% endfor %}
+    </div>
     <div class="menu-content">
-      {% for category in menu %}
+      {% for category in menu offset: 1 %}
       <div>
-        <h3>
-          {% if page.lang == 'en' %}
-              {% case category[0] %}
-                  {% when 'platters' %}Thalis / Platters
-                  {% when 'savory' %}Savory
-                  {% when 'sweet' %}Sweet
-                  {% when 'drinks' %}Drinks
-                  {% else %}{{ category[0] | capitalize }}
-              {% endcase %}
-          {% else %}
-              {% case category[0] %}
-                  {% when 'platters' %}Thalis / Plateaux
-                  {% when 'savory' %}Salee
-                  {% when 'sweet' %}Sucre
-                  {% when 'drinks' %}Boissons
-                  {% else %}{{ category[0] | capitalize }}
-              {% endcase %}
-          {% endif %}
-        </h3>
-        <dl>
-          {% for item in category[1] %}
-          <dt>
-            {% include t.html text=item.name lang=page.lang %}
-            {% if item.tags %}
-              {% for current_tag in item.tags %}
-                <svg title="{{ current_tag }}" width="18" height="18">
-                  <use href="#{{ current_tag }}"></use>
-                </svg>
-              {% endfor %}
-            {% endif %}
-            <span>{{ item.price }}</span>
-          </dt>
-          <dd>
-            {% if page.lang == 'en' %}
-                {{ item.description | split: ' |' | first | strip }}
-            {% else %}
-                {% assign desc_parts = item.description | split: ' |' %}
-                {% if desc_parts.size > 1 %}
-                    {{ desc_parts[1] | strip }}
-                {% else %}
-                    {{ item.description }}
-                {% endif %}
-            {% endif %}
-          </dd>
-          {% endfor %}
-        </dl>
+        {% include section.html name=category[0] items=category[1] lang=page.lang %}
       </div>
       {% endfor %}
     </div>

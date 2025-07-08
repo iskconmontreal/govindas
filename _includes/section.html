@@ -1,0 +1,46 @@
+<h3>
+  {% if page.lang == 'en' %}
+    {% case name %}
+      {% when 'platters' %}Thalis / Platters
+      {% when 'savory' %}Savory
+      {% when 'sweet' %}Sweet
+      {% when 'drinks' %}Drinks
+      {% else %}{{ name | capitalize }}
+    {% endcase %}
+  {% else %}
+    {% case name %}
+      {% when 'platters' %}Thalis / Plateaux
+      {% when 'savory' %}Salee
+      {% when 'sweet' %}Sucre
+      {% when 'drinks' %}Boissons
+      {% else %}{{ name | capitalize }}
+    {% endcase %}
+  {% endif %}
+</h3>
+<dl>
+  {% for item in items %}
+  <dt>
+    {% include t.html text=item.name lang=page.lang %}
+    {% if item.tags %}
+      {% for current_tag in item.tags %}
+        <svg title="{{ current_tag }}" width="18" height="18">
+          <use href="#{{ current_tag }}"></use>
+        </svg>
+      {% endfor %}
+    {% endif %}
+    <span>{{ item.price }}</span>
+  </dt>
+  <dd>
+    {% if page.lang == 'en' %}
+      {{ item.description | split: ' |' | first | strip }}
+    {% else %}
+      {% assign desc_parts = item.description | split: ' |' %}
+      {% if desc_parts.size > 1 %}
+        {{ desc_parts[1] | strip }}
+      {% else %}
+        {{ item.description }}
+      {% endif %}
+    {% endif %}
+  </dd>
+  {% endfor %}
+</dl>
