@@ -130,6 +130,7 @@ dt {
   text-transform: uppercase;
   color: var(--red);
   line-height: 1;
+  align-items: baseline;
 
   svg {
     display: inline-block;
@@ -327,10 +328,14 @@ footer {
 
   #logo {
     max-height: 108pt;
-    margin-bottom: 2vh;
+    margin-bottom: 1rem;
   }
 
   #omkara {
+    display: none;
+  }
+
+  #menu h2 {
     display: none;
   }
 
