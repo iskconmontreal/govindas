@@ -109,7 +109,7 @@ h4 {
 
 h3 {
   font-size: 1.728rem;
-  margin: 0 0 1rem;
+  margin: 0 0 0;
   padding: 1rem 0;
   position: sticky;
   top: 0;
@@ -180,7 +180,7 @@ blockquote {
   display: block;
   margin: 0 auto;
   max-width: 320px;
-  max-height: 320px;
+  max-height: 240px;
 }
 
 nav {
@@ -309,7 +309,7 @@ footer {
   }
 
   :root {
-    font-size: 9pt;
+    font-size: 8pt;
   }
 
   body {
@@ -328,6 +328,10 @@ footer {
   #logo {
     max-height: 108pt;
     margin-bottom: 2vh;
+  }
+
+  #omkara {
+    display: none;
   }
 
   section {
