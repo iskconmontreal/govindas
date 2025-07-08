@@ -108,7 +108,7 @@ p {
   display: flex;
   gap: 0 1.5rem;
   flex-wrap: wrap;
-  margin: 1.5rem auto 0;
+  margin: 3rem auto 0;
   justify-content: center;
 }
 
@@ -316,7 +316,7 @@ footer {
   }
 
   :root {
-    font-size: 9pt;
+    font-size: 8.2pt;
   }
 
   body {
