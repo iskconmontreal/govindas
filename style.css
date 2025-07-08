@@ -271,6 +271,10 @@ footer {
     margin: 0rem auto;
   }
 
+  .menu-special dl {
+    display: block;
+  }
+
   .menu-content {
     columns: 1;
     display: flex;

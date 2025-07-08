@@ -34,13 +34,13 @@
   </dt>
   <dd>
     {% if page.lang == 'en' %}
-      {{ item.description | split: ' |' | first | strip }}
+      {{ item.description | split: ' |' | first | strip | newline_to_br }}
     {% else %}
       {% assign desc_parts = item.description | split: ' |' %}
       {% if desc_parts.size > 1 %}
-        {{ desc_parts[1] | strip }}
+        {{ desc_parts[1] | strip | newline_to_br }}
       {% else %}
-        {{ item.description }}
+        {{ item.description | strip | newline_to_br }}
       {% endif %}
     {% endif %}
   </dd>
