@@ -34,6 +34,7 @@
   --text: black;
   --grotesque: 'BricolageGrotesque', sans-serif;
   --luxury: 'TheSeasons', sans-serif;
+  font-size: 12pt;
 }
 
 html {
@@ -79,6 +80,10 @@ h4 {
   margin: 0 0 .5rem;
 }
 
+p {
+  margin: 0.5rem 0;
+}
+
 .menu-special dl {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -88,7 +93,7 @@ h4 {
 }
 
 .menu-content {
-  margin: 1.5rem 0;
+  margin: 0 0 0;
   columns: 2;
   gap: 4.2vw;
 
@@ -136,6 +141,7 @@ dt {
     display: inline-block;
     vertical-align: baseline;
     margin-left: .5rem;
+    max-height: 1rem;
   }
 
   span {
