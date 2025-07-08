@@ -1,7 +1,7 @@
 settings:
   hide: true
   content:
-    merge: true # preserve config
+    merge: false # preserve config
 components:
   item:
     type: object
