@@ -1,9 +1,9 @@
 {% comment %}
-Usage: {% include t.html text=item.name lang=page.lang %}
+Usage: {% include t.html text=item.name %}
 Takes bilingual text in format "English | French" and returns appropriate language
 {% endcomment %}
 
-{% if include.lang == 'en' %}
+{% if page.lang == 'en' %}
     {{ include.text | split: '|' | first | strip | newline_to_br }}
 {% else %}
     {% assign text_parts = include.text | split: '|' %}

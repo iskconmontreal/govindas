@@ -1,3 +1,5 @@
+{% assign name = include.category[0] %}
+{% assign items = include.category[1] %}
 <h3>
   {% if page.lang == 'en' %}
     {% case name %}
