@@ -82,18 +82,6 @@
         "vegan",
         "no-gluten"
       ]
-    },
-    {
-      "name": "Jagannath Salad | Salade Jaganath",
-      "description": "Tomatoes, mixed greens, bell peppers, cucumber, grated carrot, avocado, walnuts, lemon juice, olive oil, black pepper, sea salt. |\nTomates, verdures mélangées, poivrons, concombre, carottes râpées, avocat, noix, jus de citron, huile d’olive, poivre noir, sel de mer.",
-      "price": 8.5,
-      "tags": [
-        "vegan",
-        "no-gluten"
-      ]
-    },
-    {
-      "name": "Thalis (Platters)"
     }
   ],
   "sweet": [
@@ -120,16 +108,6 @@
       "price": 4,
       "tags": [
         "vegan"
-      ]
-    },
-    {
-      "name": "Bliss Balls (2 PCS)",
-      "description": "Date and nut-based energy balls rolled in coconut – sweet, nourishing, and guilt-free. |\nBoules énergétiques à base de dattes et noix, enrobées de noix de coco – sucrées, nourrissantes et sans culpabilité.",
-      "price": 4,
-      "tags": [
-        "vegan",
-        "no-gluten",
-        "peanuts"
       ]
     },
     {
