@@ -3,16 +3,15 @@ description: |-
   Govinda’s Bistro - Transcendental vegetarian cuisine in Montreal |
   Govinda’s Bistro - Cuisine végétarienne transcendante à Montréal
 about: |-
-  Transcendental, karma-free, sattvic, cooked fresh with love and devotion. |
-  Transcendantal, sans karma, sāttvique, cuisiné frais avec amour et dévotion.
+  Transcendental, karma-free, sattvic, made with love and devotion. |
+  Transcendantal, sans karma, sāttvique, cuisiné avec amour et dévotion.
 hours:
   weekday: |-
     Lunch: 12:00 - 2:00PM
     Dinner: 5:00 - 9:00PM |
     Déjeuner: 12:00 - 14:00
     Souper: 17:00 - 21:00
-  weekend: |-
-    12:00 - 9:00PM | 12:00 - 21:00
+  weekend: 12:00 - 9:00PM | 12:00 - 21:00
 address: |-
   1626 Pie-IX Blvd
   Montreal, Quebec
@@ -22,5 +21,3 @@ address: |-
   Montréal, Québec
   H1V 2C5
 phone: +1 (514) 506-5154
-url: https://yourusername.github.io/your-repo-name
-markdown: kramdown
