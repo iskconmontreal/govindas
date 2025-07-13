@@ -230,8 +230,8 @@ section {
 }
 
 footer {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: start;
   gap: 4.2vw;
   ;
@@ -299,7 +299,7 @@ footer {
   }
 
   footer {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 }
 
