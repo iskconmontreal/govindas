@@ -89,13 +89,13 @@ p {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto;
   grid-auto-flow: column;
-  gap: 0 4.2vw;
+  gap: 0 4.2rem;
 }
 
 .menu-content {
   margin: 0 0 0;
   columns: 2;
-  gap: 4.2vw;
+  gap: 4.2rem;
 
   >div {
     break-inside: avoid-column;
@@ -233,7 +233,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: start;
-  gap: 4.2vw;
+  gap: 4.2rem;
   ;
   justify-content: space-between;
   text-align: left;
