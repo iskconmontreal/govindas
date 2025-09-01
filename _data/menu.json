@@ -70,11 +70,6 @@
       ]
     },
     {
-      "name": "Combo",
-      "description": "Pizza / burger + fries / potatoes + 1 drink. |\nPizza / burger + frites / patates + 1 boisson.",
-      "price": 12.5
-    },
-    {
       "name": "Jagannath Salad | Salade Jaganath",
       "description": "Tomatoes, mixed greens, bell peppers, cucumber, grated carrot, avocado, walnuts, lemon juice, olive oil, black pepper, sea salt. |\nTomates, verdures mélangées, poivrons, concombre, carottes râpées, avocat, noix, jus de citron, huile d’olive, poivre noir, sel de mer.",
       "price": 8.5,
