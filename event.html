@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Govinda’s - Montreal's Vegetarian / Vegan Restaurant</title>
+     <!-- new Custom fonts for this icon fix -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.css">
+
+
+
+    <link rel="stylesheet" href="vendor/revolution/css/revolution.all.css">
+    <link rel="stylesheet" href="vendor/revolution/css/revolution.css">
+    <link rel="stylesheet" href="vendor/aos/css/aos.css">
+    <link rel="stylesheet" href="vendor/jquery/jquery-ui.css">
+    <link rel="stylesheet" href="vendor/jquery/jquery.timepicker.css">
+    <link rel="stylesheet" href="vendor/slick/slick.css">
+    <link rel="stylesheet" href="vendor/lightGallery/css/lightgallery.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="css/event.css">
+
+
+    <!-- Modernizr -->
+    <script src="vendor/modernizr.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({ publicKey: "HK_s0OMOwSSr6bl0n" });
+        })();
+    </script>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <script>
+    const MAPBOX_TOKEN = 'pk.eyJ1IjoiZ292aW5kYXNtYXBzIiwiYSI6ImNtZGtpeDVmejB4b3cyaXExZ2k2Y2hkb24ifQ.ONlYFYhwsuPppiA9sXsbOg'; 
+    </script>
+
+
+</head>
+
+<body id="page-top">
+    <!-- Start  Loading Mask-->
+    <div id="mask">
+        <div class="material-icon">
+            <div class="spinner">
+                <div class="right-side">
+                    <div class="bar"></div>
+                </div>
+                <div class="left-side">
+                    <div class="bar"></div>
+                </div>
+            </div>
+            <div class="spinner color-2">
+                <div class="right-side">
+                    <div class="bar"></div>
+                </div>
+                <div class="left-side">
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Loading Mask-->
+    <!-- Navigation -->
+    <header class="container-fluid header overlayer-fixed">
+        <!-- Start Navbar-->
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="row align-items-center">
+                    <div class="col-auto">
+                        <a class="navbar-brand" href="index.html"><img src="img/logos/logo-slider-white.png" alt=""></a>
+                        <a class="navbar-brand black" href="index.html"><img src="img/logos/logo-slider-black.png" alt=""></a>
+                    </div>
+
+                    <div class="col d-flex justify-content-center">
+                        <div class="d-flex onlydesktop">
+                            <ul class="navbar">
+                                <li>
+                                    <a href="https://www.order.store/store/govindas-montreal/929wNoorUTehRDZtSwGvSw"
+                                       target="_blank" rel="noopener noreferrer" class="order-now-btn">ORDER NOW</a>
+                                </li>
+                                <li><a class="nav-link" href="./menu.html">Menu</a></li>
+                                <li><a class="nav-link" href="./event.html">Catering</a></li>
+                                <li><a class="nav-link" href="./sponsor.html">Sponsor a Meal</a></li>
+                            </ul>
+                        </div>
+                        <div class="order-now-mobile-bar onlyresponsive text-center">
+                            <a href="https://www.order.store/store/govindas-montreal/929wNoorUTehRDZtSwGvSw"
+                               target="_blank" rel="noopener noreferrer" class="order-now-btn"> ORDER NOW </a>
+                        </div>
+                    </div>
+
+                    <div class="col-auto d-flex justify-content-end">
+                        <ul class="navbar float-right onlydesktop">
+                            <li>
+                                <a class="fb-ic mr-3" href="https://www.facebook.com/GovindasMontreal" target="_blank"
+                                   role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a class="ig-ic mr-3" href="https://www.instagram.com/govindasmontreal/" target="_blank"
+                                   role="button"><i class="fab fa-lg fa-instagram"></i></a>
+                            </li>
+                            <!-- <li><a class="tw-ic mr-3" href="https://twitter.com/GovindasMontreal" role="button"><i
+                                class="fab fa-lg fa-twitter"></i></a></li>
+                            <li><a class="tw-ic mr-3"
+                            href="https://www.tripadvisor.ca/Restaurant_Review-g155019-d3941411-Reviews-Govinda_s-Montreal_Quebec.html"
+                            target="_blank" role="button"><i class="fab fa-lg fa-tripadvisor"></i></a></li>
+                            <li><a class="yl-ic mr-3" href="https://www.yelp.ca/biz/govindas-montreal" target="_blank"
+                            role="button"><i class="fab fa-lg fa-yelp"></i></a></li> -->
+                        </ul>
+                        <!-- Language Switcher -->
+                        <ul class="navbar lang-switch onlydesktop">
+                            <li> <a href="/fr/" class="lang-btn">FR</a> </li>
+                            <li class="lang-divider">|</li>
+                            <li> <a href="/" class="lang-btn active">EN</a> </li>
+                        </ul>
+
+                        <ul class="navbar">
+                            <li class="hambuger onlyresponsive">
+                                <button id="trigger-overlay" class="trigger-overlay dropdown-icon">
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overlay overlay-hugeinc">
+                <div class="overlay-content">
+                    <span class="trigger-overlay"></span>
+                    <nav id="nav">
+                        <ul>
+                            <!-- Mobile Language Switcher -->
+                            <li class="mobile-lang-switch">
+                                <a href="/fr/" class="mobile-lang-btn">FR</a>
+                                <span class="mobile-lang-divider">|</span>
+                                <a href="/" class="mobile-lang-btn active">EN</a>
+                            </li>
+                            <li class="current"><a href="./index.html">Home</a></li>
+                            <li>
+                                <a href="https://www.order.store/store/govindas-montreal/929wNoorUTehRDZtSwGvSw"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    ORDER NOW
+                                </a>
+                            </li>
+                            <li><a href="./menu.html">Menu</a></li>
+                            <li><a href="./event.html">Catering</a></li>
+                            <!-- <li><a href="./faq.html">FAQ</a></li> -->
+                            <!-- <li><a href="./contact.html">Contact</a></li> -->
+                            <li><a href="./sponsor.html">Sponsor a Meal</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar-->
+    </header>
+
+    <!--[if IE]><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+    <!-- Hero Section  Start -->
+    <section id="section-home" class="slider slide-overlay-black">
+        <!-- START REVOLUTION -->
+        <div class="rev_slider_wrapper">
+            <div id="slider1" class="rev_slider" data-version="5.0">
+                <ul>
+                    <li data-description="Slide Description" data-easein="default" data-easeout="default"
+                        data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0"
+                        data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default" data-param1=""
+                        data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6=""
+                        data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off"
+                        data-slotamount="default" data-thumb="img/slider/sliderbg1.jpg" data-title="Slide Title"
+                        data-transition="slotfade-horizontal">
+                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10"
+                             data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina=""
+                             src="img/slider/catering_events.jpg">
+                        <div class="tp-caption"
+                             data-hoffset="['0','0','0','0']"
+                             data-voffset="['50']"
+                             data-x="center"
+                             data-y="middle"
+                             data-textalign="center"
+                             data-frames='[{"from":"opacity: 0;y:[100%];","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"}]'>
+
+                            <div style="text-align: center;">
+                                <p style="
+                                line-height: 1.4;
+                                font-size: 3.5rem;
+                                margin-bottom: 0.5rem;
+                                font-family: 'Barlow', sans-serif;
+                                color: #fff;
+                                text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.85);
+                                white-space: normal;       /* ✅ allow wrapping */
+                                word-break: break-word;    /* ✅ clean breaks */
+                                max-width: 90vw;           /* ✅ prevent overflow */
+                                margin-left: auto;
+                                margin-right: auto;
+                                ">
+                                    TREAT YOUR GUESTS
+                                </p>
+
+                                <p style="
+                                font-size: 2.2rem;
+                                font-weight: 400;
+                                margin: 0;
+                                font-family: 'Barlow', sans-serif;
+                                color: #fff;
+                                text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.75);
+                                ">
+                                    to the
+                                </p>
+
+                                <h1 style="
+                                font-size: 5rem;
+                                font-weight: 700;
+                                margin: 0.5rem 0;
+                                font-family: 'Barlow', sans-serif;
+                                color: #fff;
+                                text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+                                ">
+                                    GOVINDA’S
+                                </h1>
+
+                                <p style="
+                                font-style: italic;
+                                font-size: 2rem;
+                                margin-top: 0.5rem;
+                                font-family: 'Barlow', sans-serif;
+                                color: #fff;
+                                text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.85);
+                                ">
+                                    EXPERIENCE
+                                </p>
+                            </div>
+                        </div>
+
+
+
+
+                    </li>
+
+                </ul>
+            </div>
+            <!-- END REVOLUTION SLIDER -->
+        </div>
+        <!-- END OF SLIDER WRAPPER -->
+        <a class="scroll-down animatedScroll" href="#section-event"><span></span></a>
+    </section>
+    <!-- Hero Section End -->
+    <!-- Catering Section Start -->
+    <section id="section-catering" data-aos="fade-in" data-aos-duration="1000">
+        <div class="container-fluid read-container center">
+            <div class="row">
+                <div class="col-lg-12 equalHW padding0">
+                    <div class="voffset-30"></div>
+                    <h4 class="title center">Host Your Event <br>or <br>Let Govinda’s Come to You</h4>
+                    <div class="voffset-30"></div>
+                    <p>
+                        Govinda’s offers a vibrant and elegant space for
+                        hosting your special occasions — from birthday parties
+                        and corporate events to milestone celebrations.
+                        With its grand arches, curated lighting, and stunning art sculptures,
+                        the atmosphere sets the stage for a memorable experience.<br>
+                        <br>
+                        We can comfortably accommodate gatherings of 10 guests and
+                        up (reservations required). For groups of 40 or more, please
+                        reach out to our event coordinator to arrange your booking.<br>
+                        <br>
+                        Prefer to enjoy Govinda’s flavors off-site? Our catering team
+                        brings the Govinda’s experience to your venue, office, or home.
+                        Choose from our famous Indian dishes, tempting appetizers, crisp
+                        salads, hand-crafted flatbreads, and indulgent desserts — all tailored to fit your needs.<br>
+                        <br>
+                        👉 To get started, please fill out the event inquiry form below
+                        and we’ll help make your celebration effortless and unforgettable.
+                    </p>
+
+                    <div class="voffset-40"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Catering Section End -->
+
+    <div id="form-container">
+
+        <!-- Step 1: Event Date -->
+        <div class="accordion-step active" id="step-1">
+            <h3>1. When is your event?</h3>
+            <div class="step-content">
+                <input type="date" id="event-date" />
+                <div id="date-warning" class="form-note"></div>
+
+                <label for="event-time">What time should food be served?</label>
+                <input type="time" id="event-time" />
+                <div id="time-warning" class="form-note"></div>
+
+
+                <label for="guest-count">How many guests are you expecting?</label>
+                <input type="number" id="guest-count" min="1" />
+                <div id="guest-warning" class="form-note"></div>
+
+                <button class="next-button" onclick="validateStep1()">Next</button>
+            </div>
+        </div>
+
+        <!-- Step 2: Event Type -->
+        <div class="accordion-step" id="step-2">
+            <h3>2. What type of event are you planning?</h3>
+            <div class="step-content">
+                <div id="event-type-options">
+                    <button class="event-button" onclick="selectEventType('Birthday')">Birthday</button>
+                    <button class="event-button" onclick="selectEventType('Corporate')">Corporate</button>
+                    <button class="event-button" onclick="selectEventType('Wedding')">Wedding</button>
+                    <button class="event-button" onclick="selectEventType('Religious/Cultural')">Religious/Cultural</button>
+                    <button class="event-button" onclick="selectEventType('Family Gathering')">Family Gathering</button>
+                    <button class="event-button" onclick="selectEventType('Other')">Other</button>
+                </div>
+                <div id="other-event-type" style="display:none; margin-top: 1rem;">
+                    <label>Please describe your event:</label>
+                    <input type="text" id="other-input" />
+                </div>
+                <button class="next-button" href="javascript:void(0);" onclick="validateStep2()">Next</button>
+            </div>
+        </div>
+
+        <!-- Step 3: Package and Menu Selection -->
+        <div class="accordion-step" id="step-3">
+            <h3>3. Catering Package and Menu Customization</h3>
+            <div class="step-content">
+
+                <!-- Tier selection buttons -->
+                <div id="tier-buttons">
+                    <section id="pricing-options">
+                        <h2>Select Your Catering Package</h2>
+
+                        <!-- Tier Selection -->
+                        <div class="tier-selection">
+                            <button class="tier-btn" data-tier="A">$14/person – Tier A</button>
+                            <button class="tier-btn" data-tier="B">$16/person – Tier B</button>
+                            <button class="tier-btn" data-tier="C">$19/person – Tier C</button>
+                        </div>
+
+                        <!-- Section Heading for Toggles -->
+                        <h2>Select Your Package Options</h2>
+
+                        <!-- Layout Wrapper -->
+                        <div class="pricing-layout">
+                            <!-- Dish Toggles -->
+                            <div id="dish-toggles" class="toggles-container">
+                                <!-- Generated dynamically in JS -->
+                            </div>
+
+                            <!-- Live Summary -->
+                            <aside id="summary-panel">
+                                <h2>Your Menu</h2>
+                                <ul id="summary-list"></ul>
+                                <p id="price-per-guest"></p>
+                            </aside>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Simple Next button -->
+                <button class="next-button" onclick="validateStep3()">Next</button>
+            </div>
+        </div>
+
+        <!-- Step 4: Allergies -->
+        <div class="accordion-step" id="step-4">
+            <h3>4. Do you or your guests have any food allergies?</h3>
+            <div class="step-content">
+
+                <div>
+                    <label>
+                        <input type="radio" name="has-allergies" value="no" onclick="toggleAllergyInput(false)"> No
+                    </label>
+                    <label style="margin-left:1rem;">
+                        <input type="radio" name="has-allergies" value="yes" onclick="toggleAllergyInput(true)"> Yes
+                    </label>
+                </div>
+
+                <div id="allergy-input" style="display:none; margin-top:1rem;">
+                    <label>Please specify the allergens (e.g. nuts, gluten, dairy):</label><br>
+                    <textarea id="allergy-details" rows="3" style="width:100%;"></textarea>
+                    <p style="font-size:0.9rem; color:#666; margin-top:0.5rem;">
+                        We will do our best to accommodate your needs. However, please note that our kitchen handles common allergens and cross-contamination is possible.
+                    </p>
+                </div>
+
+                <button class="next-button" onclick="validateStep4()">Next</button>
+            </div>
+        </div>
+
+        <!-- Step 5: Event Location -->
+        <div class="accordion-step" id="step-5">
+            <h3>5. Where is your event being held?</h3>
+            <div class="step-content">
+
+                <!-- New Toggle Buttons for Event Type -->
+                <div id="event-type-toggle" style="margin-bottom:1rem;">
+                    <label class="toggle-button">
+                        <input type="radio" name="event-type" value="govindas">
+                        <span>Onsite: at Govinda's</span>
+                    </label>
+                    <label class="toggle-button" style="margin-left:1rem;">
+                        <input type="radio" name="event-type" value="offsite">
+                        <span>Offsite: a different location</span>
+                    </label>
+                </div>
+
+                <!-- All original content below, conditionally shown for Offsite -->
+                <div id="location-details" style="display:none;">
+                    <label for="event-address">Event address or location:</label>
+                    <input type="text" id="event-address" style="width:100%; margin-top:0.5rem;" />
+
+                    <div id="location-message" class="form-note" style="margin-top:1rem;"></div>
+
+                    <div id="delivery-options" style="display:none; margin-top:1rem;">
+                        <label>Do you require delivery?</label><br>
+                        <label><input type="radio" name="needs-delivery" value="yes"> Yes</label>
+                        <label style="margin-left:1rem;"><input type="radio" name="needs-delivery" value="no"> No</label>
+
+                        <!-- NEW BUTTON: Only shown when "Yes" is selected
+                        <div id="calculate-delivery-container" style="margin-top:1rem; display:none;">
+                            <button id="calculate-delivery-btn">Calculate Delivery</button>
+                        </div> -->
+
+                        <div id="delivery-pricing" style="margin-top:1rem; font-size:0.9rem; color:#666;">
+                            <strong>Delivery Pricing:</strong><br>
+                            From <em>1626 Pie-IX Blvd, Montreal (within 108 km)</em><br>
+                            • Base Fee: $15 (first 1 km)<br>
+                            • Plus: $1/km beyond that<br>
+                            No hidden fees.
+                        </div>
+                    </div>
+                </div>
+
+                <button class="next-button" id="next-button" onclick="validateStep5()">Next</button>
+            </div>
+        </div>
+
+
+        <!-- Step 6: Contact Info -->
+        <div class="accordion-step" id="step-6">
+            <h3>6. Please provide your contact information:</h3>
+            <div class="step-content">
+
+                <label for="user-name">Name:</label><br>
+                <input type="text" id="user-name" style="width:100%; margin-bottom:1rem;"><br>
+
+                <label for="user-email">Email:</label><br>
+                <input type="email" id="user-email" style="width:100%; margin-bottom:1rem;"><br>
+
+                <label for="user-phone">Phone Number:</label><br>
+                <input type="tel" id="user-phone" style="width:100%;"><br>
+
+                <button class="next-button" onclick="validateStep6()">Next</button>
+            </div>
+        </div>
+
+        <!-- Step 7: Additional Notes -->
+        <div class="accordion-step" id="step-7">
+            <h3>7. Any additional notes or requests?</h3>
+            <div class="step-content">
+
+                <p style="font-size:0.95rem; color:#555;">
+                    Timing, serving preferences, access instructions, or anything else you'd like us to know.
+                </p>
+
+                <textarea id="extra-notes" rows="5" style="width:100%; margin-top:1rem;"></textarea>
+
+                <button class="next-button" onclick="validateStep7()">Next</button>
+            </div>
+        </div>
+
+        <!-- Step 8: Submission -->
+        <div class="accordion-step" id="step-8">
+            <h3>8. Ready to submit your inquiry?</h3>
+            <div class="step-content">
+
+                <div class="summary-subtitle">📋 Please review your answers. Once you submit, our team will receive your details and respond shortly.</div>
+
+                <div id="final-summary" class="final-summary-box" style="margin-top:1rem;"></div>
+
+                <div style="margin-top: 1rem;">
+                    <input type="checkbox" id="robot-check">
+                    <label for="robot-check">I'm not a robot</label>
+                </div>
+
+                <button id="submit-button" class="next-button" onclick="submitForm()">Submit</button>
+
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+    <!-- Catering Banner Section Start -->
+    <section class="parallax" style="background-image: url('img/slider/catering.jpg');"></section>
+
+    <!-- Catering Banner Section End -->
+    <!-- Footer Section Start -->
+    <section id="section-contact">
+        <footer>
+            <div class="row">
+                <div class="container center">
+                    <div class="voffset-50"></div>
+
+                    <!-- LEFT COLUMN -->
+                    <div class="col-lg-5 col-footer-3 footer-contact">
+                        <h4><a href="contact.html">Contact</a></h4>
+                        <p>
+                            <span>1626 boulevard Pie IX</span>
+                            <span>514-900-4729</span>
+                            <span>Montreal, QC H1V 2C5</span>
+                            <a href="mailto:govindasMontreal@gmail.com">govindasMontreal@gmail.com</a>
+                        </p>
+
+                        <h4>Operating Hours:</h4>
+                        <p>
+                            <span class="margintop">Weekdays Lunch:</span>
+                            <span>12:00 - 2:00PM</span>
+
+                            <span class="margintop">Weekdays Dinner:</span>
+                            <span>5:00 - 9:00PM</span>
+
+                            <span class="margintop">Weekends (Sat - Sun):</span>
+                            <span>12:00 - 9:00PM</span>
+                        </p>
+
+                        <p>
+                            Daily menu available on
+                            <a href="https://www.facebook.com/GovindasMontreal" target="_blank" rel="noopener noreferrer">Facebook</a>
+                            &
+                            <a href="https://www.instagram.com/govindasmontreal/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                        </p>
+
+                        <h4>Large Group?</h4>
+                        <p>
+                            Reservations are encouraged for over 5 people.<br>
+                            To make a reservation please email
+                            <a href="mailto:govindasMontreal@gmail.com">govindasMontreal@gmail.com</a>
+                            or call 514-900-4729.
+                        </p>
+                    </div>
+
+                    <!-- RIGHT COLUMN -->
+                    <div class="col-lg-5 col-footer-4 footer-contact">
+                        <h4><a href="event.html">Catering / Events</a></h4>
+                        <p>
+                            For questions regarding Govinda's event planning and catering services,
+                            please call us at 514-900-4729 or e-mail us at
+                            <a href="mailto:govindasMontreal@gmail.com">govindasMontreal@gmail.com</a>
+                        </p>
+
+                        <h4><a href="https://www.order.store/store/govindas-montreal/929wNoorUTehRDZtSwGvSw/fr-CA/?hideModal=true&pickup=true" target="_blank" rel="noopener noreferrer">Take Out</a></h4>
+                        <p>Take Govinda's home with you! Kachoris, Samosas, Sweet Boxes, Thalis, and more Available!</p>
+
+                        <h4>Delivery</h4>
+                        <p>
+                            Order through
+                            <a href="https://www.doordash.com/store/34977379?utm_source=mx_share_android" target="_blank" rel="noopener noreferrer">Govinda's</a>,
+                            or
+                            <a href="https://www.order.store/store/govindas-montreal/929wNoorUTehRDZtSwGvSw" target="_blank" rel="noopener noreferrer">Uber Eats</a>.
+                        </p>
+
+                        <h4><a href="faq.html">FAQ</a></h4>
+                        <p>
+                            Find answers to <a href="faq.html">frequently asked questions</a> about our menu, orders, catering, and mission.
+                        </p>
+
+                        <h4>Social Media Links</h4>
+                        <div>
+                            <ul class="footer-social-icons list-inline">
+                                <li class="list-inline-item">
+                                    <a class="fb-ic" href="https://www.facebook.com/GovindasMontreal" target="_blank" role="button">
+                                        <i class="fab fa-lg fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="ig-ic" href="https://www.instagram.com/govindasMontreal/" target="_blank" role="button">
+                                        <i class="fab fa-lg fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="voffset-50"></div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="col-12 copyright">
+                        <div class="voffset-20"></div>
+                        <div class="row">
+                            <p>&copy; 2026 Govinda's Montreal. All Rights Reserved.</p>
+                            <img alt="Govinda's Bistro logo" src="img/logos/logo-bistro-white.png">
+                            <h6>
+                                Govinda's operates in support of ISKCON Montreal and all funds are donations/proceeds in support of ISKCON Montreal.
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/jquery/jquery-ui.js"></script>
+    <script src="vendor/jquery/jquery.timepicker.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
+
+    <!-- Revolution Slider -->
+    <script src="vendor/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+    <script src="vendor/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extensions.all.js"></script>
+
+    <!-- Animation On Screen -->
+    <script src="vendor/aos/js/aos.js"></script>
+
+    <!-- Slick Slider -->
+    <script src="vendor/slick/slick.js"></script>
+
+    <!-- Masonry -->
+    <script src="vendor/masonry/js/isotope.pkgd.js"></script>
+
+    <!-- LightGallery -->
+    <script src="vendor/lightGallery/js/lightgallery.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/main.js"></script>
+    <script src="js/event.js"></script>
+
+</body>
+
+</html>

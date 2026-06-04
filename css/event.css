@@ -1,0 +1,518 @@
+
+/* ===== Pricing Section Styles (START) ===== */
+
+/* Tier Buttons */
+.tier-btn {
+  border: 2px solid #ccc;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 0.5rem 1.2rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tier-btn.active {
+  color: white;
+  border-color: currentColor;
+}
+
+.tier-btn[data-tier="A"].active {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.tier-btn[data-tier="B"].active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.tier-btn[data-tier="C"].active {
+  background-color: #f4a300;
+  color: white;
+}
+
+
+
+.tier-btn:hover {
+  background-color: #e0e0e0;
+}
+
+/* Dish Toggles */
+.toggle-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.toggle-option {
+  border: 2px solid #ccc;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  flex: 1;
+  text-align: center;
+  margin: 0 0.5rem;
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+.toggle-option.active {
+  background-color: #1e90ff33; /* Default to Tier A color */
+  border-color: #1e90ff;
+}
+
+/* Summary Panel */
+#summary-list {
+  list-style: none;
+  padding: 0;
+}
+
+#summary-list li {
+  margin-bottom: 0.5rem;
+}
+
+#price-per-guest {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+
+/* Layout Columns */
+.pricing-layout {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Make sure toggles and summary panel have breathing room */
+#dish-toggles {
+  flex: 2;
+}
+
+#summary-panel {
+  flex: 1;
+  background-color: #f7f7f7;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.sub-heading {
+  font-size: 1.2rem;
+  margin: 2rem 0 1rem 0.2rem; 
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.tier-selection {
+  margin-bottom: 2rem; /* Adjust as needed */
+}
+
+#pricing-options {
+    padding: 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#step-3 .step-content {
+  padding: 0 2rem; /* Matches rest of accordion content */
+}
+
+@media (max-width: 420px) {
+  .toggle-option {
+    white-space: normal;     /* ✅ allows text wrapping */
+    word-break: break-word;  /* ✅ breaks long words cleanly */
+    padding: 0.2rem 0.4rem;
+    font-size: 0.95rem;
+    text-align: center;
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 100%;
+  }
+  .event-button {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+
+  #event-type-options {
+    display: block;
+    width: 100%;
+  }
+
+  .accordion-step {
+    min-height: 4.2rem;           /* ⬅️ forces taller collapsed header */
+    display: flex;
+    align-items: flex-start;          /* ⬅️ vertically center content */
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .accordion-step h3 {
+    font-size: 1.2rem !important;
+    line-height: 1.4;
+    margin: 0.5rem 0;
+    text-align: left;
+    min-width: 80vw;           /* ⬅️ keeps heading contained within viewport */
+    word-break: break-word;    /* ⬅️ breaks long words if needed */
+    white-space: normal;       /* ⬅️ allows wrapping */
+  }
+
+  .accordion-step.completed h3::after {
+    right: 0.1rem !important;       /* ✅ enforce horizontal offset */
+    top: 0.5rem !important;        /* ✅ nudges down slightly */
+    font-size: 1.5rem !important;    /* ✅ scale to match smaller heading */
+  }
+
+  .step-content.active {
+  max-height: 3500px !important;
+  overflow: visible !important;
+  padding-bottom: 10rem !important; /* gives space for bottom buttons */
+}
+
+}
+
+
+
+@media (max-width: 600px) {
+  #step-3 .step-content {
+    padding: 0 1rem;
+  }
+
+  .toggle-option {
+  flex: 0 0 45%;
+  min-width: 0;     /* 🔧 Lower from 140px */
+  padding: 0.1rem 0.1rem;
+  margin: 0;
+  text-align: center;
+  white-space: normal;
+  border: 2px solid #ccc;
+  background-color: #f9f9f9;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+}
+
+
+
+@media (max-width: 768px) {
+  .pricing-layout {
+    flex-direction: column;
+  }
+
+  #summary-panel {
+    margin-top: 1rem;
+  }
+
+  .toggle-option {
+    flex: 1 1 45%;
+    min-width: 140px;
+    padding: 0.1rem 0.1rem;
+    margin: 0;
+    text-align: center;
+    white-space: normal; 
+    border: 2px solid #ccc;
+    background-color: #f9f9f9;
+    font-weight: bold;
+    cursor: pointer;
+    }
+
+
+  .toggle-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    }
+
+    .toggle-divider {
+    flex: 0 0 auto;
+    margin: 0 0rem;
+    font-weight: bold;
+    color: #666;
+    }
+  
+
+  .sub-heading {
+    margin: 2rem 0 1rem; 
+  }
+
+  
+  .pricing-layout div > div:first-child {
+    width: auto !important;
+    text-align: left;
+    margin-bottom: 0.5rem;
+  }
+} 
+
+
+/* ===== Pricing Section Styles (END) ===== */
+
+/* ==== accordion form styles ===== */
+
+#event-type-options button.active {
+  background-color: var(--color-title);
+  color: var(--color-primary-bg);
+  font-weight: bold;
+}
+
+.next-button {
+    display: inline-block;
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--color-title);
+  color: var(--color-primary-bg);
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.next-button:hover {
+  background-color: #222;
+}
+
+.next-button:disabled {
+  background-color: var(--color-body-text); /* your grey tone */
+  color: var(--color-primary-bg); /* keep readable text */
+  cursor: not-allowed;
+  opacity: 0.6; /* subtle fade effect */
+}
+
+
+/* ===============================
+   Accordion Step Visual Framework
+   =============================== */
+
+#form-container {
+  min-height: 700px;
+  position: relative;
+  max-width: 1008px;     /* ⬅️ Adjust as needed */
+  margin: 0 auto;       /* ⬅️ Center horizontally */
+  padding: 0 1rem;      /* ⬅️ Add side breathing room on mobile */
+}
+
+/* Core Accordion Card Style */
+.accordion-step {
+  border: 1px solid var(--color-title);
+  background-color: var(--color-primary-bg);
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin-top: 1.5rem;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+
+/* Header — Always Visible */
+.accordion-step h3 {
+  cursor: pointer;
+  position: relative;
+  margin: 0;
+  padding: 1rem 1.5rem;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  background-color: var(--color-primary-bg);
+  /* border-left: 5px solid var(--color-title); */
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+  z-index: 1;
+}
+
+/* Completed Step Visual Markers */
+.accordion-step.completed h3 {
+  position: relative;
+  background-color: var(--color-primary-bg);
+  /* border-left: 10px solid var(--color-title); */
+}
+
+.accordion-step.completed h3::after {
+  content: '✓';
+  position: absolute;
+  right: 1.5rem;
+  top: 0.85rem;
+  /* transform: translateY(-50%); */
+  font-size: 1.2rem;
+  color: var(--color-title);
+}
+
+/* Active step — expanded and editable */
+.accordion-step.active {
+  max-height: 1500px;
+  opacity: 1;
+  pointer-events: auto;
+  border-left: 10px solid var(--color-title);
+}
+
+/* Completed step — collapsed but marked */
+.accordion-step.completed:not(.active) {
+  max-height: 80px; /* Just enough to show header */
+  opacity: 1;
+  pointer-events: auto;
+  border-left: 5px solid var(--color-title);
+}
+
+/* Completed + Active behaves like Active */
+.accordion-step.completed.active {
+  max-height: 1500px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 600px) {
+  .accordion-step {
+    padding: 1rem;
+  }
+
+  .accordion-step h3 {
+    font-size: 1.2rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .next-button {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+}
+
+/* Collapsing content only */
+.step-content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+.step-content.active {
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  max-height: 1500px; 
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.step-content.expanded {
+  max-height: none;
+}
+
+
+.step-content {
+  padding: 0 2rem; /* Restores horizontal padding */
+}
+
+.step-content .next-button {
+  margin-bottom: 2rem;
+}
+
+
+.event-button {
+  background-color: #f0f0f0;
+  color: #222;
+  border: 2px solid #999;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+
+#event-type-options button {
+  background-color: #f0f0f0;
+  color: #222;
+  border: 2px solid #999;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+
+#other-input {
+  background-color: #fff;
+  color: #222;
+  border: 2px solid #999;
+  padding: 0.5rem;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1rem;
+  border-radius: 4px;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.parallax {
+  position: relative;
+  width: 100%;
+  height: 400px; /* taller for this banner */
+  background-attachment: scroll;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+
+
+#final-summary {
+  white-space: normal;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  background: #fafafa;
+  border-radius: 6px;
+  line-height: 1.5;
+  font-size: 1rem;
+  overflow: visible;
+  max-height: none;
+}
+
+.review-step {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--color-title);
+}
+
+.review-step .step-body {
+  font-weight: normal;
+  font-size: 1rem;
+  color: #333;
+  margin-top: 0.25rem;
+  margin-left: 1rem;
+}
+
+.review-step {
+  font-weight: bold;
+  color: var(--color-title);
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem; /* reduced space under title */
+  margin-top: 1.2rem;
+}
+
+.step-body {
+  margin-bottom: 1rem; /* spacing after each step content */
+}
+
+
+.summary-subtitle {
+  font-weight: 600; /* similar to h3 boldness */
+  font-size: 1rem;  /* smaller than h3, adjust as needed */
+  color: var(--color-title);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
