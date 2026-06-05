@@ -2309,13 +2309,13 @@ body.dark-version .testimonials-content p.customer {
 }
 
 .history-image {
-    background: url(../img/demo/history/img-home-history.jpg) no-repeat top center #000000;
+    background: url(../img/demo/history/img-home-history.webp) no-repeat top center #000000;
     background-size: cover;
     height: 100%;
 }
 
 body.dark-version .history-image {
-    background: url(../img/demo/dark-version/history/img-home-history.jpg) no-repeat top center #000000;
+    background: url(../img/demo/dark-version/history/img-home-history.webp) no-repeat top center #000000;
     background-size: cover;
     height: 100%;
 }
@@ -2348,13 +2348,13 @@ body.dark-version footer, body.dark-version footer .copyright {
 }
 
 .testimonials-image {
-    background: url(../img/testimonials/testimonials.jpg) no-repeat center #000000;
+    background: url(../img/testimonials/testimonials.webp) no-repeat center #000000;
     background-size: cover;
     height: 100%;
 }
 
 body.dark-version .testimonials-image {
-    background: url(../img/testimonials/testimonials.jpg) no-repeat center #000000;
+    background: url(../img/testimonials/testimonials.webp) no-repeat center #000000;
     background-size: cover;
     height: 100%;
 }
@@ -2473,12 +2473,12 @@ ul.filters li {
 }
 
 .section.booking {
-    background: url(../img/demo/booking/bg-booking.jpg) no-repeat center;
+    background: url(../img/demo/booking/bg-booking.webp) no-repeat center;
     background-size: cover;
 }
 
 body.dark-version .section.booking {
-    background: url(../img/demo/dark-version/booking/bg-booking.jpg) no-repeat center;
+    background: url(../img/demo/dark-version/booking/bg-booking.webp) no-repeat center;
     background-size: cover;
 }
 
@@ -2804,7 +2804,7 @@ footer p span.margintop {
 
 .section.ppal-menu:before {
     content: "";
-    background: url(../img/demo/menu/bg-menu-home-left.png) no-repeat;
+    background: url(../img/demo/menu/bg-menu-home-left.webp) no-repeat;
     position: absolute;
     top: 60%;
     transform: translateY(-50%);
@@ -2814,16 +2814,16 @@ footer p span.margintop {
 }
 
 body.dark-version .section.ppal-menu:before {
-    background: url(../img/demo/dark-version/menu/bg-menu-home-left.png) no-repeat;
+    background: url(../img/demo/dark-version/menu/bg-menu-home-left.webp) no-repeat;
 }
 
 body.dark-version .section.ppal-menu:after {
-    background: url(../img/demo/dark-version/menu/bg-menu-home-right.png) no-repeat;
+    background: url(../img/demo/dark-version/menu/bg-menu-home-right.webp) no-repeat;
 }
 
 .section.ppal-menu:after {
     content: "";
-    background: url(../img/demo/menu/bg-menu-home-right.png) no-repeat;
+    background: url(../img/demo/menu/bg-menu-home-right.webp) no-repeat;
     position: absolute;
     top: 60%;
     transform: translateY(-50%);
@@ -3346,7 +3346,7 @@ body.dark-version.pattern-version .featured-info {
 }
 
 body.dark-version.pattern-version, body.dark-version.pattern-version footer, body.dark-version.pattern-version footer .copyright, body.dark-version.pattern-version .voffset-131.bg, body.dark-version.pattern-version .header.fixed-small {
-    background: url("../img/demo/dark-version/particles/pattern.jpg") repeat;
+    background: url("../img/demo/dark-version/particles/pattern.webp") repeat;
 }
 
 body.dark-version .contentslide.slide-team .sliderslide-content h4, body.dark-version .featured-text p, body.dark-version ul.menu-price li p {
@@ -3383,7 +3383,7 @@ body.dark-version #mask {
     display: block;
     position: relative;
     overflow: hidden;
-    background: url(../img/demo/video/video_placeholder.jpg);
+    background: url(../img/demo/video/video_placeholder.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
