@@ -4980,3 +4980,31 @@ html {
     padding: 0 4px;
 }
 
+
+/* Reopening Banner Styles */
+.reopening-banner {
+    background-color: var(--color-title, #f28b00);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    font-family: 'Poppins', sans-serif;
+}
+.header.overlayer-fixed {
+    margin-top: 54px !important;
+}
+.header.overlayer-fixed.fixed-small {
+    margin-top: 54px !important;
+}
+.disabled-order-btn {
+    pointer-events: none;
+    opacity: 0.6;
+    cursor: not-allowed;
+}
